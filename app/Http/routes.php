@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/{name?}/{page?}', function ($name = 'welcome', $page = '') {
+    return view($name);
 });

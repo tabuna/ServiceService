@@ -1,68 +1,61 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Laravel</title>
-    <link href="/dist/css/orchid.css" rel="stylesheet" type="text/css">
-</head>
+@extends('layout.app')
 
 
-<body>
 
+@section('content')
 
-<!-- header -->
-<header id="header" class="navbar bg-white-only padder-v b-b box-shadow">
+    <div class="container-fluid">
+
+        <div class="row b-b box-shadow">
+
     <div class="container">
-        <div class="navbar-header">
-            <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse"
-                    data-target=".navbar-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a href="#" class="navbar-brand m-r-lg">
-                <img src="/img/logo.png" class="m-r-sm">
-            </a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#">О проекте</a>
-                </li>
-            </ul>
+
+        <div class="row">
+
+            <div class="col-md-6">
 
 
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">О проекте</a></li>
-                <li><a href="#">Инвестору</a></li>
-                <li><a href="#">Потребителям</a></li>
-                <li><a href="#">Контакты</a></li>
-
-                <li>
+                <div class="page-header">
+                    <h1>Потребителям <small>подзаголовок</small></h1>
+                </div>
 
 
-                    <form class="navbar-form navbar-form-sm navbar-left w-sm" role="search">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control input-sm bg-light no-border rounded padder"
-                                       placeholder="Поиск...">
-              <span class="input-group-btn">
-                <button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>
-              </span>
-                            </div>
-                        </div>
-                    </form>
-
-                </li>
+                <p class="text-justify">
+                    «ОАО «ОЭЗ ППТ «Липецк» осуществляет строительство и эксплуатацию распределительных сетей электроснабжения, теплоснабжения, газоснабжения, водоснабжения, водоотведения и телекоммуникации на территории ОЭЗ ППТ «Липецк».
+                </p>
 
 
-            </ul>
+                <p class="text-justify">
+                    В данном разделе вы найдёте информацию порядке присоединения/подключения к сетям ОАО «ОЭЗ ППТ «Липецк», а также информацию о деятельности по передаче электрической энергии, поставке тепловой энергии в горячей воде, поставке питьевой воды, транспортировке сточных вод, транспортировке природного газа и сопутствующих услугах.»
+                </p>
+
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class='pageOption pull-right'>
+                    <a href='#' class='option' data-inf='cinema'>
+                        <img src='/img/main.jpg'>
+                    </a>
+                </div>
+            </div>
+
 
 
         </div>
     </div>
-</header>
-<!-- / header -->
-<div id="content" class="">
 
 
+
+
+            </div>
+
+</div>
+
+
+
+   {{--
     <div class="container">
 
         <div id="carousel-example-generic" class="carousel slide box-shadow" data-ride="carousel">
@@ -87,7 +80,7 @@
             </a></div>
 
     </div>
-
+    --}}
 
     <div class="container m-t-xxl">
 
@@ -95,8 +88,14 @@
             <div class="col-md-6">
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default bg-dark b-light">
+
+                    <p class="col-md-12">
+                        <span class="text-center h4 font-thin m-r-lg">О нас</span>
+                    </p>
+
+
+                    <div class="col-md-6 wrapper-xs">
+                        <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-lg">
                                     <div class="panel-hover-title b-b">
@@ -113,8 +112,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default bg-dark b-light">
+                    <div class="col-md-6 wrapper-xs">
+                        <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-lg">
                                     <div class="panel-hover-title b-b">
@@ -135,8 +134,8 @@
 
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="panel panel-default bg-dark b-light">
+                    <div class="col-md-4 wrapper-xs">
+                        <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
@@ -153,8 +152,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="panel panel-default bg-dark b-light">
+                    <div class="col-md-4 wrapper-xs">
+                        <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
@@ -171,8 +170,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="panel panel-default bg-dark b-light">
+                    <div class="col-md-4 wrapper-xs">
+                        <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
@@ -197,23 +196,27 @@
 
             <div class="col-md-6">
 
+
+                <div class="row">
+                    <p>
+                        <span class="text-center h4 font-thin m-r-lg m-l-md">Новости</span>
+
+                        <a class="text-center h5  font-thin"><span class="text-danger">Все новости</span>
+                            <button
+                                    class="btn btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </button>
+                        </a>
+                    </p>
+                </div>
+
                 <div class="row">
                     <article class="col-md-6">
-                        <p>
-                            <span class="text-center h4 font-thin m-r-lg">Новости</span>
-
-                            <a class="text-center h5  font-thin"><span class="text-danger">Все новости</span>
-                                <button
-                                        class="btn btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                </button>
-                            </a>
-                        </p>
 
                         <div class="">
                             <img src="/img/news.jpeg" class="img-responsive">
                             <div class="caption m-t-xs">
-                                <small class="font-thin">26 февраля 2015</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
                                 <p class="small">Руководство компании «Кемин Индастриз» рассматривает возможность
                                     размещения
                                     предприятия...</p>
@@ -223,10 +226,18 @@
 
                     </article>
                     <article class="col-md-6">
-                        <figure>
-                            <figcaption class="text-center h4 font-thin">Целевые показатели роста</figcaption>
-                            <p><img src="/img/rost.png" class="img-responsive"></p>
-                        </figure>
+
+                        <div class="">
+                            <img src="/img/news.jpeg" class="img-responsive">
+                            <div class="caption m-t-xs">
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                <p class="small">Руководство компании «Кемин Индастриз» рассматривает возможность
+                                    размещения
+                                    предприятия...</p>
+                            </div>
+                        </div>
+
+
                     </article>
                 </div>
 
@@ -345,32 +356,16 @@
     </div>
 
 
-</div>
 
 
-<!-- footer -->
-<footer id="footer" class="b-t m-t-md">
-    <div class="container">
-        <div class="row padder-v m-t">
-            <div class="col-xs-8">
-                <ul class="list-inline">
-                    <li><a href="#">Карта сайта</a></li>
-                    <li><a href="#">Инвестору</a></li>
-                    <li><a href="#">Потребителям</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-4 text-right">
-                Angulr &copy; 2015
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- / footer -->
 
 
-</body>
 
 
-<script src="/dist/js/orchid.js"></script>
-</html>
+
+
+@endsection
+
+
+
+

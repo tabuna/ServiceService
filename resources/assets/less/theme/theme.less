@@ -189,7 +189,7 @@
     height: 10px;
     margin: 1px;
     text-indent: -999px;
-    border: 1px solid @carousel-indicator-border-color;
+    border: 1px solid @brand-dark;
     border-radius: 10px;
     cursor: pointer;
 
@@ -209,7 +209,7 @@
     margin: 0;
     width:  12px;
     height: 12px;
-    background-color: @carousel-indicator-active-bg;
+    background-color: @brand-dark;
   }
 }
 
@@ -337,3 +337,106 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Разрез
+*/
+
+.pageOption {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 30em;
+}
+.option, .option img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.option {
+  overflow: hidden;
+  position: absolute;
+  transform: skewX(-25deg);
+  transform-origin: 0% 100%;
+}
+
+
+.option img, .option:after {
+  transform: skewX(25deg);
+  transform-origin: inherit;
+}
+
+/*
+ * Разрез
+*/
+
+
+.bg-img-map{
+  background: url('/img/map.jpg') #000 no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+/*
+ * .breadcrumb
+ */
+
+.breadcrumb{
+  padding: 15px 0 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: inherit;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+
+.block-items{
+  padding:0;
+  height: 200px;
+  overflow: hidden;
+  a{
+    display: block;
+    height: 100%;
+    &:hover{
+      background: @brand-light;
+      transition: 500ms;
+    }
+    &:not(hover){
+      transition: 500ms;
+    }
+  }
+}
