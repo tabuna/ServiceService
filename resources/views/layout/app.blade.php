@@ -3,6 +3,7 @@
 <head>
     <title>Laravel</title>
     <link href="/dist/css/orchid.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
 </head>
 
 
@@ -19,16 +20,16 @@
             </button>
             <a href="/" class="navbar-brand m-r-lg v-center">
                 <img src="/img/logo.png" class="m-r-sm">
-                <span class="h4">Bounce</span>
+                <span class="h4">Code Bounce</span>
             </a>
         </div>
         <div class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">О проекте</a></li>
-                <li><a href="#">Инвестору</a></li>
-                <li><a href="#">Потребителям</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="/clients">Клиентам</a></li>
+                <li><a href="/worker">Исполнителям</a></li>
+                <li><a href="/contact">Контакты</a></li>
 
 
                 <li class="dropdown pos-stc">
@@ -59,10 +60,10 @@
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
                                             <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Price</a>
+                                                <a href="/price"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Цены</a>
                                             </li>
                                             <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Lock screen</a>
+                                                <a href="/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Пресс-центр</a>
                                             </li>
                                             <li>
                                                 <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Sign in</a>
@@ -181,10 +182,11 @@
         <div class="row padder-v m-t">
             <div class="col-xs-8">
                 <ul class="list-inline">
-                    <li><a href="#">Карта сайта</a></li>
-                    <li><a href="#">Инвестору</a></li>
-                    <li><a href="#">Потребителям</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Публичная оферта</a></li>
+                    <li><a href="#">Об оплате</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Команда</a></li>
+                    <li><a href="#">Вакансии</a></li>
                 </ul>
             </div>
             <div class="col-xs-4 text-right">

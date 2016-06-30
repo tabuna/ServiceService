@@ -55,32 +55,6 @@
 
 
 
-   {{--
-    <div class="container">
-
-        <div id="carousel-example-generic" class="carousel slide box-shadow" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner bg-grey" role="listbox">
-                <div class="item active"><img alt="First slide [900x500]"
-                                              src="/img/slide-1.png" data-holder-rendered="true"></div>
-                <div class="item"><img alt="First slide [900x500]"
-                                       src="/img/slide-1.png" data-holder-rendered="true"></div>
-                <div class="item"><img alt="First slide [900x500]"
-                                       src="/img/slide-1.png" data-holder-rendered="true"></div>
-            </div>
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-                <span class="sr-only">Previous</span>
-            </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <i class="fa fa-angle-right" aria-hidden="true"></i> <span class="sr-only">Next</span>
-            </a></div>
-
-    </div>
-    --}}
 
     <div class="container m-t-xxl">
 
@@ -115,7 +89,7 @@
                     <div class="col-md-6 wrapper-xs">
                         <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
-                                <a href="/virtualnyy-tur/" class="block wrapper-lg">
+                                <a href="/news/" class="block wrapper-lg">
                                     <div class="panel-hover-title b-b">
                                         <p class="h4">Управляющая компания</p>
                                     </div>
@@ -137,7 +111,7 @@
                     <div class="col-md-4 wrapper-xs">
                         <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
-                                <a href="/virtualnyy-tur/" class="block wrapper-md">
+                                <a href="/news" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
                                         <p>Управляющая компания</p>
                                     </div>
@@ -155,7 +129,7 @@
                     <div class="col-md-4 wrapper-xs">
                         <div class="panel panel-default bg-dark b-light m-n">
                             <div class="panel-hover">
-                                <a href="/virtualnyy-tur/" class="block wrapper-md">
+                                <a href="/news" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
                                         <p>Управляющая компания</p>
                                     </div>
@@ -201,11 +175,11 @@
                     <p>
                         <span class="text-center h4 font-thin m-r-lg m-l-md">Новости</span>
 
-                        <a class="text-center h5  font-thin"><span class="text-danger">Все новости</span>
-                            <button
+                        <a href="/news" class="text-center h5  font-thin"><span class="text-danger">Все новости</span>
+                            <span
                                     class="btn btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            </button>
+                            </span>
                         </a>
                     </p>
                 </div>
