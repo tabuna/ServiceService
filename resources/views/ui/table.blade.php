@@ -4,7 +4,7 @@
 
 @section('ui')
 
-    <div class="container">
+
 <div class="bs-docs-section">
     <h1 id="tables" class="page-header">Tables</h1>
 
@@ -474,5 +474,4 @@
 </div>
 
 
-</div>
 @endsection

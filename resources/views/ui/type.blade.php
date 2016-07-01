@@ -4,7 +4,7 @@
 
 @section('ui')
 
-    <div class="container">
+
 
 <div class="bs-docs-section">
     <h1 id="type" class="page-header">Typography</h1>
@@ -468,5 +468,5 @@
     </div>
 </div>
 
-    </div>
+
 @endsection

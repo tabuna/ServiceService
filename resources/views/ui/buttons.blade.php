@@ -4,7 +4,7 @@
 
 @section('ui')
 
-    <div class="container">
+
 
 
 <div class="bs-docs-section">
@@ -480,6 +480,5 @@
         </div>
 
 
-        </div>
 
  @endsection

@@ -4,7 +4,7 @@
 
 @section('ui')
 
-    <div class="container">
+
 
 
         <section id="web-application">
@@ -602,6 +602,4 @@
 
         </section>
 
-
-    </div>
 @endsection

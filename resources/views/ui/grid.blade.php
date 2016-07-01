@@ -4,7 +4,7 @@
 
 @section('ui')
 
-    <div class="container">
+
 
 
 <div class="wrapper-md">
@@ -191,5 +191,4 @@
 </div>
 
 
-        </div>
 @endsection

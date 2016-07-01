@@ -1,10 +1,9 @@
-@extends('layout.ui')
+@extends('layout.ui ')
 
 
 
 @section('ui')
 
-    <div class="container">
 
         <div class="bs-docs-section">
             <h1 id="alerts" class="page-header">Alerts</h1>
@@ -96,6 +95,6 @@
             {% endhighlight %}
         </div>
 
-    </div>
+
 
 @endsection
