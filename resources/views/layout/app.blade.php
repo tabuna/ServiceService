@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laravel</title>
+    <title>Bounce</title>
     <link href="/dist/css/orchid.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
 </head>
@@ -20,16 +20,16 @@
             </button>
             <a href="/" class="navbar-brand m-r-lg v-center">
                 <img src="/img/logo.png" class="m-r-sm">
-                <span class="h4">Code Bounce</span>
+                <span class="h4">Bounce</span>
             </a>
         </div>
         <div class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/about">О проекте</a></li>
-                <li><a href="/clients">Клиентам</a></li>
-                <li><a href="/worker">Исполнителям</a></li>
-                <li><a href="/contact">Контакты</a></li>
+                <li><a href="/about">About As</a></li>
+                <li><a href="/clients">Service</a></li>
+                <li><a href="/worker">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
 
 
                 <li class="dropdown pos-stc">
@@ -143,7 +143,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <input type="text" class="form-control input-sm bg-light no-border rounded padder"
-                                       placeholder="Поиск...">
+                                       placeholder="Search...">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>
               </span>
