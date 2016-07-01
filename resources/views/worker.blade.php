@@ -65,7 +65,6 @@
 
 
 
-{{--
     <section class="container-fluid">
         <!-- Наши достоинства -->
         <div class="row">
@@ -104,7 +103,7 @@
             </div>
         </div>
     </section>
---}}
+
 
     <div class="container m-t-xxl">
         <div class="row row-sm text-center">

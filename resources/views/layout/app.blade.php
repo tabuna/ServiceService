@@ -190,7 +190,9 @@
                 </ul>
             </div>
             <div class="col-xs-4 text-right">
-                Angulr &copy; 2015
+                <a href="https://gitter.im/TheOrchid/Dashboard" class="btn btn-link"><i class="fa fa-comments"></i></a>
+                <a href="https://vk.com/unknown_art1st"  class="btn btn-link"><i class="fa fa-vk"></i></a>
+                <a href="https://github.com/TheOrchid/Dashboard"  class="btn btn-link"><i class="fa fa-github"></i></a>
             </div>
         </div>
     </div>

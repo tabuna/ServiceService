@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/{name?}/{page?}', function ($name = 'welcome', $page = '') {
-    return view($name);
+Route::get('/{name?}/{page?}', function ($name = 'welcome', $page = null) {
+    if($page == null) {
+        return view($name);
+    }
+    else{
+        return view($name.'.'.$page);
+    }
 });
