@@ -1,22 +1,29 @@
-.item {
+.item{
   position: relative;
-  .top {
+  .top{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
   }
-  .bottom {
+  .bottom{
     position: absolute;
     bottom: 0;
     left: 0;
+    width:100%;
   }
-  .center {
+  .center{
     position: absolute;
-    top: 50%;
+    top:50%;
+    width: 100%;
   }
-}
 
-.item-overlay {
+  .opacity {
+    background-color: rgba(0,0,0,0.75);
+  }
+
+}
+.item-overlay{
   display: none;
   position: absolute;
   top: 0;
@@ -26,5 +33,11 @@
   &.active,
   .item:hover & {
     display: block;
+    transition: 0.3s;
   }
+  .item:not(:hover) & {
+    transition: 0.2s;
+  }
+
+
 }

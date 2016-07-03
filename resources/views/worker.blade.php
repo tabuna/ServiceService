@@ -85,6 +85,13 @@
 
 
 
+
+
+
+
+
+
+
         <div class="container">
             <!--feature border box start-->
             <div class="row m-b-lg m-t-md">
@@ -222,32 +229,67 @@
 
 
 
-    <aside class="clients">
-    <div class="container">
-        <div class="row padder-v">
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/envato.jpg" class="img-responsive center" alt="">
-                </a>
+
+
+    <aside class="container m-t-lg">
+
+        <div class="row wrapper-lg">
+            <div class="col-md-4">
+                <img src="/img/c0.jpg" class="img-full">
+                <div class="wrapper-sm">
+                    <h2 class="m-t-none font-thin"><a href="">7 things you need to know about the flat design</a></h2>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
+                    <div class="line line-lg b-b b-light"></div>
+                    <div class="text-muted">
+                        <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/designmodo.jpg" class="img-responsive center" alt="">
-                </a>
+
+            <div class="col-md-4">
+                <img src="/img/c1.jpg" class="img-full">
+                <div class="wrapper-sm">
+                    <h2 class="m-t-none font-thin"><a href="">7 things you need to know about the flat design</a></h2>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
+                    <div class="line line-lg b-b b-light"></div>
+                    <div class="text-muted">
+                        <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/themeforest.jpg" class="img-responsive center" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/creative-market.jpg" class="img-responsive center" alt="">
-                </a>
+            <div class="col-md-4">
+                <img src="/img/c2.jpg" class="img-full">
+                <div class="wrapper-sm">
+                    <h2 class="m-t-none font-thin"><a href="">7 things you need to know about the flat design</a></h2>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
+                    <div class="line line-lg b-b b-light"></div>
+                    <div class="text-muted">
+                        <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</aside>
+
+
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

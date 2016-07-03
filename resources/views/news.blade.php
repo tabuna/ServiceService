@@ -77,7 +77,7 @@
                 <figure>
                     <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                     <div class="wrapper">
-                    <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                    <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                     <figcaption class="w-full">
                         <small class="text-muted">
                             29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -92,7 +92,7 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -107,7 +107,23 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <figcaption class="w-full">
+                                <small class="text-muted">
+                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
+                                </small>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </a>
+            </article>
+
+            <article class="col-md-4 b b-ligh block-items">
+                <a href="#">
+                    <figure>
+                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
+                        <div class="wrapper">
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -122,7 +138,7 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -137,7 +153,23 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <figcaption class="w-full">
+                                <small class="text-muted">
+                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
+                                </small>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </a>
+            </article>
+
+            <article class="col-md-4 b b-ligh block-items">
+                <a href="#">
+                    <figure>
+                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
+                        <div class="wrapper">
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -152,7 +184,7 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
@@ -167,172 +199,7 @@
                     <figure>
                         <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
                         <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
-                            <figcaption class="w-full">
-                                <small class="text-muted">
-                                    29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила
-                                </small>
-                            </figcaption>
-                        </div>
-                    </figure>
-                </a>
-            </article>
-            <article class="col-md-4 b b-ligh block-items">
-                <a href="#">
-                    <figure>
-                        <time class="small text-muted font-thin bg-light wrapper-xs"> 29 Июня 2016</time>
-                        <div class="wrapper">
-                            <p class="title">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
+                            <p class="font-thin">Герой России, летчик- космонавт Юрий Лончаков вручил руководству ОЭЗ «Липецк» памятный знак, облетевший Землю</p>
                             <figcaption class="w-full">
                                 <small class="text-muted">
                                     29 июня 2016 года делегация Центра подготовки космонавтов имени Ю.А.Гагарина под руководством начальника Центра, героя Российской Федерации, летчика-космонавта Юрия Лончакова посетила

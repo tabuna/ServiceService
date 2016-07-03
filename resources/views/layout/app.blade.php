@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bounce</title>
     <link href="/dist/css/orchid.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
@@ -39,16 +42,20 @@
                     <div class="dropdown-menu wrapper w-full bg-white">
                         <div class="row">
                             <div class="col-sm-4">
-                                <div class="m-l-xs m-t-xs m-b-xs font-bold">Страницы <span class="badge badge-sm bg-success">10</span></div>
+                                <div class="m-l-xs m-t-xs m-b-xs font-bold">Pages <span class="badge badge-sm bg-success">10</span></div>
                                 <div class="row">
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
                                             <li>
-                                                <a href="/404"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>404</a>
+                                                <a href="/about"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About</a>
                                             </li>
                                             <li>
-                                                <a href="/about"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>О нас</a>
+                                                <a href="/about2"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About2</a>
                                             </li>
+                                            <li>
+                                                <a href="/about3"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About3</a>
+                                            </li>
+
                                             <li>
                                                 <a href="/contact"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Контакты</a>
                                             </li>
@@ -60,16 +67,19 @@
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
                                             <li>
-                                                <a href="/price"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Цены</a>
+                                                <a href="/price"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Price</a>
                                             </li>
                                             <li>
-                                                <a href="/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Пресс-центр</a>
+                                                <a href="/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>News</a>
                                             </li>
                                             <li>
-                                                <a href="/about2"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About2</a>
+                                                <a href="/team"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Team</a>
                                             </li>
                                             <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Sign up</a>
+                                                <a href="/post"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Post</a>
+                                            </li>
+                                            <li>
+                                                <a href="/404"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>404</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -80,34 +90,12 @@
                                 <div class="row">
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Buttons</a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Icons <span class="badge badge-sm bg-warning">1000+</span></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Grid</a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Widgets</a>
-                                            </li>
+
                                         </ul>
                                     </div>
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Bootstap</a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Sortable</a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Portlet</a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Timeline</a>
-                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -115,20 +103,6 @@
                             <div class="col-sm-4 b-l b-light">
                                 <div class="m-l-xs m-t-xs m-b-sm font-bold">Analysis</div>
                                 <div class="text-center">
-                                    <div class="inline">
-                                        <div ui-jq="easyPieChart" ui-options="{
-                          percent: 65,
-                          lineWidth: 50,
-                          trackColor: '#e8eff0',
-                          barColor: '#23b7e5',
-                          scaleColor: false,
-                          size: 100,
-                          rotate: 90,
-                          lineCap: 'butt',
-                          animate: 2000
-                        }" class="easyPieChart" style="width: 100px; height: 100px; line-height: 100px;">
-                                            <canvas width="100" height="100"></canvas></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
