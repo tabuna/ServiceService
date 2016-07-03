@@ -70,112 +70,65 @@
 
 
 
-<!-- Intro Section -->
-<section id="intro" class="h-full text-center">
-    <div class="container">
-        <div class="row">
 
-            <div class="text-center">
-                <h3 class="l-h-1x m-t-xxl">
-                    <span class="b-b b-while">PHP</span> платформа для сайтов высокого уровня
-                    <p>
-                        <small>Веб-разработка - это просто</small>
-                    </p>
-                </h3>
-            </div>
+
+
+<div class="container m-t-xxl h-full">
+
+    <div class="row m-b-md">
+        <div class="page-header text-center">
+            <p class="h2">Ценности компании</p>
         </div>
-
-        <div class="row padder-v">
-
-            <div class="container">
-                <article class="col-md-4">
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user fa-4x"></i>
-                        </p>
-                        <p class="text-orchid"> Идеальный для дизайнеров</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                Получите полный контроль над HTML, CSS и JavaScript.
-                            </small>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user  fa-4x"></i>
-                        </p>
-                        <p class="text-orchid">Создан для разработчиков</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                Структура, которая растет вместе с вами
-                                используя любимые технологии.
-                            </small>
-                        </figcaption>
-                    </figure>
-                </article>
-
-                <article class="col-md-4">
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user  fa-4x"></i>
-                        </p>
-                        <p class="text-orchid">Все говорят Да!</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                От простых сайтов до высоко нагруженных приложений.
-                            </small>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user  fa-4x"></i>
-                        </p>
-
-                        <p class="text-orchid">Современное</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                Использует новые возможности языка PHP и базируется на Laravel.
-                            </small>
-                        </figcaption>
-                    </figure>
-                </article>
-
-                <article class="col-md-4">
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user  fa-4x"></i>
-                        </p>
-                        <p class="text-orchid">Прост в освоение</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                Интуитивное и понятнятное восприятие.
-                            </small>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="text-center padder-v">
-                        <p class="padder-v">
-                            <i class="fa fa-user  fa-4x"></i>
-                        </p>
-
-                        <p class="text-orchid">Для любой команды</p>
-                        <figcaption class="w-sm center-block">
-                            <small>
-                                Легкость управления и развертывания с Git или SVN.
-                            </small>
-                        </figcaption>
-                    </figure>
-                </article>
-
-            </div>
-        </div>
-
-
-
     </div>
-</section>
+
+    <div class="v-center">
+        <article class="col-md-4">
+            <figure class="text-center padder-v">
+                <p class="padder-v">
+                    <i class="fa fa-bar-chart-o fa-4x" aria-hidden="true"></i>
+                </p>
+                <p class="text-danger"> Идеальный для дизайнеров</p>
+                <figcaption class="w-lg center-block">
+                    <small>
+                        Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
+                    </small>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-md-4">
+            <figure class="text-center padder-v">
+                <p class="padder-v">
+                    <i class="fa fa-balance-scale fa-4x" aria-hidden="true"></i>
+                </p>
+                <p class="text-danger"> Идеальный для дизайнеров</p>
+                <figcaption class="w-lg center-block">
+                    <small>
+                        Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
+                    </small>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-md-4">
+        <figure class="text-center padder-v">
+            <p class="padder-v">
+                <i class="fa fa-university  fa-4x" aria-hidden="true"></i>
+            </p>
+            <p class="text-danger"> Идеальный для дизайнеров</p>
+            <figcaption class="w-lg center-block">
+                <small>
+                    Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
+                </small>
+            </figcaption>
+        </figure>
+    </article>
+    </div>
+
+</div>
+
+
+
+
+
 
 <!-- About Section -->
 <section id="about" class="about-section">
@@ -406,35 +359,35 @@
     </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Contact Section</h1>
+<div class="bg-img-map  box-shadow b-t  m-t-xxl">
+    <div class="bg-black-opacity">
+        <div class="container">
+            <div class="row m-t-xl m-b-xl">
+                <div class="col-sm-12 text-center text-white">
+                    <h4 class="m-b">Зинтересованы?</h4>
+                    <p>
+                        <small>Мы рекомендуем установку с помощью пакетного менеджера Composer</small>
+                    </p>
+                    <p><a href="#" class="btn btn-lg btn-danger btn-rounded">Интерактивная карта</a></p>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
-
-<footer id="footer" class="b-t">
+<footer class="b-t">
     <div class="container">
-        <div class="row padder-v m-t">
-            <div class="col-xs-8">
-                <ul class="list-inline">
-                    <li><a href="#">Публичная оферта</a></li>
-                    <li><a href="#">Об оплате</a></li>
-                    <li><a href="#">Гарантии</a></li>
-                    <li><a href="#">Команда</a></li>
-                    <li><a href="#">Вакансии</a></li>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-inline padder-v">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Job</a></li>
                 </ul>
-            </div>
-            <div class="col-xs-4 text-right">
-                <a href="https://gitter.im/TheOrchid/Dashboard" class="btn btn-link"><i class="fa fa-comments"></i></a>
-                <a href="https://vk.com/unknown_art1st" class="btn btn-link"><i class="fa fa-vk"></i></a>
-                <a href="https://github.com/TheOrchid/Dashboard" class="btn btn-link"><i class="fa fa-github"></i></a>
+                <p class=" text-muted small">Copyright © Your Company 2014. All Rights Reserved</p>
             </div>
         </div>
     </div>

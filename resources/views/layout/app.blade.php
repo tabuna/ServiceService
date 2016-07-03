@@ -66,7 +66,7 @@
                                                 <a href="/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Пресс-центр</a>
                                             </li>
                                             <li>
-                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Sign in</a>
+                                                <a href="/about2"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About2</a>
                                             </li>
                                             <li>
                                                 <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Sign up</a>

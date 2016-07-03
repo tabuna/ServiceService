@@ -23,11 +23,13 @@ elixir(function(mix) {
     mix.scripts([
         "./resources/assets/vendor/jquery/dist/jquery.min.js",
         "./resources/assets/vendor/bootstrap/dist/js/bootstrap.min.js",
-        './resources/assets/vendor/bootstrap-maxlength/bootstrap-maxlength.js',
+        './resources/assets/vendor/bootstrap-maxlength/src/bootstrap-maxlength.js',
         './resources/assets/vendor/jasny-bootstrap/dist/js/jasny-bootstrap.min.js',
         './resources/assets/vendor/PACE/pace.min.js',
 
         './resources/assets/vendor/jquery.easing/js/jquery.easing.min.js',
+        './resources/assets/vendor/waypoints/lib/jquery.waypoints.min.js',
+        
         "./resources/assets/vendor/vue/dist/vue.js",
         "./resources/assets/vendor/vue-resource/dist/vue-resource.js",
         "./resources/assets/js/app.js",
