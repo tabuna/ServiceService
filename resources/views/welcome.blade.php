@@ -36,7 +36,7 @@
         </div>
         <div class="col-md-4 portfolio-item">
             <a href="/agency" target="_blank">
-                <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <img class="img-responsive" src="/img/agency/prev.png" alt="">
                 <h3>Agency</h3>
             </a>
 

@@ -53,28 +53,30 @@
 
 
 
-<!-- footer -->
-<footer id="footer" class="b-t m-t-md bg-dark">
-    <div class="container">
-        <div class="row padder-v m-t">
-            <div class="col-xs-8">
-                <ul class="list-inline">
-                    <li><a href="#">Публичная оферта</a></li>
-                    <li><a href="#">Об оплате</a></li>
-                    <li><a href="#">Гарантии</a></li>
-                    <li><a href="#">Команда</a></li>
-                    <li><a href="#">Вакансии</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-4 text-right">
-                <a href="https://gitter.im/TheOrchid/Dashboard" class="btn btn-link"><i class="fa fa-comments"></i></a>
-                <a href="https://vk.com/unknown_art1st"  class="btn btn-link"><i class="fa fa-vk"></i></a>
-                <a href="https://github.com/TheOrchid/Dashboard"  class="btn btn-link"><i class="fa fa-github"></i></a>
+
+
+<footer id="footer">
+    <div class="b-t m-t-md bg-dark">
+        <div class="container">
+            <div class="row padder-v m-t">
+                <div class="col-xs-8">
+                    <ul class="list-inline">
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Job</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 text-right">
+                    <span class="m-r-xs">Bounce</span> <i class="fa fa-copyright"></i> 2016
+                </div>
             </div>
         </div>
     </div>
 </footer>
-<!-- / footer -->
+
+
 
 
 </body>
