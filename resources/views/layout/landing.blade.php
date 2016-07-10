@@ -10,16 +10,14 @@
 </head>
 
 
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-
 
 
 <header id="header" class="navbar  navbar-scroll  navbar-fixed-top padder-v b-b box-shadow">
     <div class="container">
         <div class="navbar-header">
-            <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse"
+                    data-target=".navbar-collapse">
                 <i class="fa fa-bars"></i>
             </button>
             <a href="/" class="navbar-brand m-r-lg v-center">
@@ -43,7 +41,8 @@
                 <li>
                     <div class="m-t-sm">
                         <a href="../angular/#/access/signin" class="btn btn-link btn-sm">Sign in</a> or
-                        <a href="../angular/#/access/signup" class="btn btn-sm btn-primary btn-rounded m-l"><strong>Sign up</strong></a>
+                        <a href="../angular/#/access/signup" class="btn btn-sm btn-primary btn-rounded m-l"><strong>Sign
+                                up</strong></a>
                     </div>
                 </li>
             </ul>
@@ -52,28 +51,23 @@
 </header>
 
 
+<div class="paralax-3  parallax-main text-center v-center" data-type="background" data-speed="10">
+    <div class="container padder-v text-white">
 
-    <div class="paralax-3  parallax-main text-center v-center" data-type="background" data-speed="10">
-        <div class="container padder-v text-white">
 
-
-            <div class="row">
-                <div class="col-md-7 col-sm-9">
-                    <h2>Beautiful Web Components</h2>
-                    <p class="lead">
-                        Pillar comes packed with flexible content blocks and Variant Page Builder - this makes building your perfect layout easier than ever before.
-                    </p>
-                </div>
+        <div class="row">
+            <div class="col-md-7 col-sm-9">
+                <h2>Beautiful Web Components</h2>
+                <p class="lead">
+                    Pillar comes packed with flexible content blocks and Variant Page Builder - this makes building your
+                    perfect layout easier than ever before.
+                </p>
             </div>
-
-
-
         </div>
+
+
     </div>
-
-
-
-
+</div>
 
 
 <div class="container m-t-xxl h-full">
@@ -93,7 +87,8 @@
                 <p class="text-danger"> Идеальный для дизайнеров</p>
                 <figcaption class="w-lg center-block">
                     <small>
-                        Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
+                        Мы формируем в особых экономических зонах новые территории экономического развития и социального
+                        роста для последующего масштабирования в рамках всей страны.
                     </small>
                 </figcaption>
             </figure>
@@ -106,31 +101,163 @@
                 <p class="text-danger"> Идеальный для дизайнеров</p>
                 <figcaption class="w-lg center-block">
                     <small>
-                        Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
+                        Мы формируем в особых экономических зонах новые территории экономического развития и социального
+                        роста для последующего масштабирования в рамках всей страны.
                     </small>
                 </figcaption>
             </figure>
         </article>
         <article class="col-md-4">
-        <figure class="text-center padder-v">
-            <p class="padder-v">
-                <i class="fa fa-university  fa-4x" aria-hidden="true"></i>
-            </p>
-            <p class="text-danger"> Идеальный для дизайнеров</p>
-            <figcaption class="w-lg center-block">
-                <small>
-                    Мы формируем в особых экономических зонах новые территории экономического развития и социального роста для последующего масштабирования в рамках всей страны.
-                </small>
-            </figcaption>
-        </figure>
-    </article>
+            <figure class="text-center padder-v">
+                <p class="padder-v">
+                    <i class="fa fa-university  fa-4x" aria-hidden="true"></i>
+                </p>
+                <p class="text-danger"> Идеальный для дизайнеров</p>
+                <figcaption class="w-lg center-block">
+                    <small>
+                        Мы формируем в особых экономических зонах новые территории экономического развития и социального
+                        роста для последующего масштабирования в рамках всей страны.
+                    </small>
+                </figcaption>
+            </figure>
+        </article>
     </div>
 
 </div>
 
 
+<!-- About Section -->
+<section id="isotope" class="about-section m-t-xxl m-b-xxl">
+    <div class="container">
+
+        <div id="filters" class="button-group">
+            <button class="btn btn-link" data-filter="*">show all</button>
+            <button class="btn btn-link" data-filter=".web">WEB</button>
+            <button class="btn btn-link" data-filter=".design">DESIGN</button>
+        </div>
+
+        <div class="container-fluid no-gutter">
+
+            <div id="posts" class="row">
+                <div id="1" class="item web col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero1.jpg" class="portfolio-box">
+                            <img src="/img/hero1.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="2" class="item web col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero2.jpg" class="portfolio-box">
+                            <img src="/img/hero2.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="3" class="item design col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero3.jpg" class="portfolio-box">
+                            <img src="/img/hero3.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="4" class="item design col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero4.jpg" class="portfolio-box">
+                            <img src="/img/hero4.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="5" class="item web col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero5.jpg" class="portfolio-box">
+                            <img src="/img/hero5.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="6" class="item design col-sm-3">
+                    <div class="item-wrap">
+                        <a href="/img/hero7.jpg" class="portfolio-box">
+                            <img src="/img/hero7.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="7" class="item web col-sm-3">
+                    <div class="item-wrap">
+                        <img class="img-responsive" src="//lorempixel.com/600/600/business/1">
+                    </div>
+                </div>
+                <div id="8" class="item design col-sm-3">
+                    <div class="item-wrap">
+                        <img class="img-responsive" src="//placekitten.com/600/600" title="Can you believe it??">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+
+    </div>
+</section>
 
 
 <!-- About Section -->
@@ -403,25 +530,54 @@
 <script src="/dist/js/orchid.js"></script>
 
 <script>
-//jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-if ($(".navbar-scroll.navbar").offset().top > 50) {
-$(".navbar-scroll.navbar-fixed-top").addClass("top-nav-collapse");
-} else {
-$(".navbar-scroll.navbar-fixed-top").removeClass("top-nav-collapse");
-}
-});
+    //jQuery to collapse the navbar on scroll
+    $(window).scroll(function () {
+        if ($(".navbar-scroll.navbar").offset().top > 50) {
+            $(".navbar-scroll.navbar-fixed-top").addClass("top-nav-collapse");
+        } else {
+            $(".navbar-scroll.navbar-fixed-top").removeClass("top-nav-collapse");
+        }
+    });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-$('a.page-scroll').bind('click', function(event) {
-var $anchor = $(this);
-$('html, body').stop().animate({
-scrollTop: $($anchor.attr('href')).offset().top
-}, 1500, 'easeInOutExpo');
-event.preventDefault();
-});
-});
+    //jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+
+
+
+
+    $( document ).ready(function() {
+        /* activate jquery isotope */
+        var $container = $('#posts').isotope({
+            itemSelector : '.item',
+            isFitWidth: true
+        });
+
+        $container.isotope({
+            columnWidth: '.col-sm-3'
+        });
+
+
+        $container.isotope({ filter: '*' });
+
+        // filter items on button click
+        $('#filters').on( 'click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $container.isotope({ filter: filterValue });
+        });
+    });
+
+
+
+
+
 </script>
 
 </html>

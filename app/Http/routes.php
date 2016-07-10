@@ -19,3 +19,7 @@ Route::get('/{name?}/{page?}', function ($name = 'welcome', $page = 'welcome') {
         return view('page.'.$name.'.'.$page);
     }
 });
+
+
+
+

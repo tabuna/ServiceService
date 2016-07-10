@@ -29,7 +29,7 @@ elixir(function(mix) {
 
         './resources/assets/vendor/jquery.easing/js/jquery.easing.min.js',
         './resources/assets/vendor/waypoints/lib/jquery.waypoints.min.js',
-        
+        './resources/assets/vendor/isotope/dist/isotope.pkgd.min.js',
         "./resources/assets/vendor/vue/dist/vue.js",
         "./resources/assets/vendor/vue-resource/dist/vue-resource.js",
         "./resources/assets/js/app.js",
