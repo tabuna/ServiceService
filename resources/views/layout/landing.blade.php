@@ -246,7 +246,7 @@
 
                         <div class="grid">
                         <figure class="effect-sadie">
-                            <img src="/img/hero7.jpg"  class="img-responsive" alt="img12">
+                            <img src="/img/hero3.jpg"  class="img-responsive" alt="img12">
                             <figcaption>
                                 <h2>Holy <span>Sadie</span></h2>
                                 <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
