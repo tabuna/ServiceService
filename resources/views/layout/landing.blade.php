@@ -243,7 +243,18 @@
                 </div>
                 <div id="7" class="item web col-sm-3">
                     <div class="item-wrap">
-                        <img class="img-responsive" src="//lorempixel.com/600/600/business/1">
+
+                        <div class="grid">
+                        <figure class="effect-sadie">
+                            <img src="/img/hero7.jpg"  class="img-responsive" alt="img12">
+                            <figcaption>
+                                <h2>Holy <span>Sadie</span></h2>
+                                <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                            </div>
+
                     </div>
                 </div>
                 <div id="8" class="item design col-sm-3">
