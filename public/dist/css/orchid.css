@@ -11701,6 +11701,13 @@ body {
   border-radius: 2px;
   outline: 0 !important;
 }
+.btn-opacity {
+  opacity: 0.5;
+  transition: all 230ms;
+}
+.btn-opacity:hover {
+  opacity: 1;
+}
 .btn-link {
   color: #58666e;
 }
@@ -16494,35 +16501,35 @@ input.list-view-search {
   margin: 0;
   border-radius: inherit;
 }
+.stepwizard-step {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+}
 .stepwizard-step p {
   margin-top: 10px;
+}
+.stepwizard-step button[disabled] {
+  filter: alpha(opacity=100) !important;
+  opacity: 1 !important;
 }
 .stepwizard-row {
   display: table-row;
 }
-.stepwizard {
-  display: table;
-  width: 100%;
-  position: relative;
-}
-.stepwizard-step button[disabled] {
-  opacity: 1 !important;
-  filter: alpha(opacity=100) !important;
-}
 .stepwizard-row:before {
-  top: 14px;
+  background-color: #cccccc;
   bottom: 0;
-  position: absolute;
   content: " ";
-  width: 100%;
   height: 1px;
-  background-color: #ccc;
+  position: absolute;
+  top: 14px;
+  width: 100%;
   z-order: 0;
 }
-.stepwizard-step {
-  display: table-cell;
-  text-align: center;
+.stepwizard {
+  display: table;
   position: relative;
+  width: 100%;
 }
 .fade-carousel {
   position: relative;
@@ -17428,6 +17435,32 @@ fieldset[disabled] .btn-grey:hover.active {
   transform: skewX(25deg);
   -webkit-transform-origin: inherit;
   transform-origin: inherit;
+}
+.agency .panel-hover-2 a {
+  transition: 320ms;
+  overflow: hidden;
+}
+.agency .panel-hover-2 a:hover {
+  transition-timing-function: linear;
+  transition-duration: 320ms;
+  text-decoration: none;
+  border-radius: 0;
+  background-color: #fc4141;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.agency .panel-hover-2 .panel-hover-icon {
+  background-color: #fc4141;
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  top: 0;
+  left: 0;
+  padding: 1vw 4vw 10vw 5vw;
+  margin-left: -2em;
+  font-size: 2em;
+}
+.agency .panel-hover-2 .panel-hover-icon i {
+  -webkit-transform: skewX(25deg);
+  transform: skewX(25deg);
 }
 
 /*# sourceMappingURL=orchid.css.map */

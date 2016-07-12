@@ -45,9 +45,151 @@
                     </div>
                 </div>
 
+
+
                 <div class="row wrapper-lg">
                     <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="panel bg-light">
+                                    <div class="panel-hover-2">
+                                        <a href="#" class="block">
+                                            <div class="panel-hover-icon col-md-3">
+                                                <i class="fa fa-bar-chart-o"></i>
+                                            </div>
+                                        <div class="col-md-9 wrapper-lg">
+                                            <div class="panel-hover-title b-b">
+                                                <p class="h4 m-b-md m-l-md">Dolor sit amet</p>
+                                            </div>
+                                            <div class="panel-hover-body">
+                                                <p class="small">
+                                                    -orem ipsum dolor sit amet
+                                                    -consectetur adipisicing elit
+                                                    -sed do eiusmod tempor
+                                                </p>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel bg-light">
+                                    <div class="panel-hover-2">
+                                        <a href="#" class="block">
+                                            <div class="panel-hover-icon col-md-3">
+                                                <i class="fa fa-bar-chart-o"></i>
+                                            </div>
+                                            <div class="col-md-9 wrapper-lg">
+                                                <div class="panel-hover-title b-b">
+                                                    <p class="h4 m-b-md m-l-md">Dolor sit amet</p>
+                                                </div>
+                                                <div class="panel-hover-body">
+                                                    <p class="small">
+                                                        -orem ipsum dolor sit amet
+                                                        -consectetur adipisicing elit
+                                                        -sed do eiusmod tempor
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel bg-light">
+                                    <div class="panel-hover-2">
+                                        <a href="#" class="block">
+                                            <div class="panel-hover-icon col-md-3">
+                                                <i class="fa fa-bar-chart-o"></i>
+                                            </div>
+                                            <div class="col-md-9 wrapper-lg">
+                                                <div class="panel-hover-title b-b">
+                                                    <p class="h4 m-b-md m-l-md">Dolor sit amet</p>
+                                                </div>
+                                                <div class="panel-hover-body">
+                                                    <p class="small">
+                                                        -orem ipsum dolor sit amet
+                                                        -consectetur adipisicing elit
+                                                        -sed do eiusmod tempor
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+
+
+
+                <div class="row wrapper-lg">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="panel panel-default bg-while b-light m-n">
+                                    <div class="panel-hover">
+                                        <a href="#" class="block wrapper-lg">
+                                            <div class="panel-hover-title b-b">
+                                                <p class="h4">Peerage of England</p>
+                                            </div>
+                                            <div class="panel-hover-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis .</p>
+                                            </div>
+                                            <div class="panel-hover-icon">
+                                                <i class="fa fa-bar-chart-o"></i>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="panel panel-default bg-while b-light m-n">
+                                    <div class="panel-hover">
+                                        <a href="#" class="block wrapper-lg">
+                                            <div class="panel-hover-title b-b">
+                                                <p class="h4">Peerage of England</p>
+                                            </div>
+                                            <div class="panel-hover-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis .</p>
+                                            </div>
+                                            <div class="panel-hover-icon">
+                                                <i class="fa fa-balance-scale"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel panel-default bg-while b-light m-n">
+                                    <div class="panel-hover">
+                                        <a href="#" class="block wrapper-lg">
+                                            <div class="panel-hover-title b-b">
+                                                <p class="h4">Peerage of England</p>
+                                            </div>
+                                            <div class="panel-hover-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis .</p>
+                                            </div>
+                                            <div class="panel-hover-icon">
+                                                <i class="fa fa-university"></i>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row wrapper-lg">
+                    <div class="col-md-10 col-md-offset-1">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="panel panel-default bg-dark b-light m-n">
@@ -106,8 +248,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
 
@@ -320,7 +460,9 @@
                     <div class="col-md-10 col-md-offset-1">
 
                         <div class="row">
-                           <img src="/img/agency/clients.png" class="img-responsive">
+                           <a href="#" class="btn-opacity block">
+                               <img src="/img/agency/clients.png" class="img-responsive">
+                               </a>
                         </div>
                     </div>
 

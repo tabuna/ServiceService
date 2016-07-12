@@ -69,7 +69,7 @@
 
 
                     <div class="col-md-6 wrapper-xs">
-                        <div class="panel panel-default bg-dark b-light m-n">
+                        <div class="panel panel-default b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-lg">
                                     <div class="panel-hover-title b-b">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 wrapper-xs">
-                        <div class="panel panel-default bg-dark b-light m-n">
+                        <div class="panel panel-default b-light m-n">
                             <div class="panel-hover">
                                 <a href="/news/" class="block wrapper-lg">
                                     <div class="panel-hover-title b-b">
@@ -109,7 +109,7 @@
 
                 <div class="row">
                     <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default bg-dark b-light m-n">
+                        <div class="panel panel-default b-light m-n">
                             <div class="panel-hover">
                                 <a href="/news" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default bg-dark b-light m-n">
+                        <div class="panel panel-default b-light m-n">
                             <div class="panel-hover">
                                 <a href="/news" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default bg-dark b-light m-n">
+                        <div class="panel panel-default b-light m-n">
                             <div class="panel-hover">
                                 <a href="/virtualnyy-tur/" class="block wrapper-md">
                                     <div class="panel-hover-title b-b">
