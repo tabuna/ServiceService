@@ -188,7 +188,7 @@
             <div>
                 <div>
                     <a class="pull-left thumb thumb-wrapper m-r">
-                        <img src="img/b0.jpg">
+                        <img src="/img/b0.jpg">
                     </a>
                     <div class="clear">
                         <a href="" class="font-semibold text-ellipsis">Bootstrap 3: What you need to know</a>
@@ -198,7 +198,7 @@
                 <div class="line line-dashed b-b line-lg"></div>
                 <div>
                     <a class="pull-left thumb thumb-wrapper m-r">
-                        <img src="img/b1.jpg">
+                        <img src="/img/b1.jpg">
                     </a>
                     <div class="clear">
                         <a href="" class="font-semibold text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
@@ -208,7 +208,7 @@
                 <div class="line line-dashed b-b line-lg"></div>
                 <div>
                     <a class="pull-left thumb thumb-wrapper m-r">
-                        <img src="img/b2.jpg">
+                        <img src="/img/b2.jpg">
                     </a>
                     <div class="clear">
                         <a href="" class="font-semibold text-ellipsis">Sed diam nonummy nibh euismod tincidunt ut laoreet</a>
@@ -220,7 +220,7 @@
                 <div class="line line-dashed b-b line-lg"></div>
                 <div>
                     <a class="pull-left thumb thumb-wrapper m-r">
-                        <img src="img/b3.jpg">
+                        <img src="/img/b3.jpg">
                     </a>
                     <div class="clear">
                         <a href="" class="font-semibold text-ellipsis">Sed diam nonummy nibh euismod tincidunt ut laoreet</a>
@@ -329,22 +329,22 @@
         <div class="row padder-v">
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/envato.jpg" class="img-responsive center" alt="">
+                    <img src="/img/logos/envato.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/designmodo.jpg" class="img-responsive center" alt="">
+                    <img src="/img/logos/designmodo.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/themeforest.jpg" class="img-responsive center" alt="">
+                    <img src="/img/logos/themeforest.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#">
-                    <img src="img/logos/creative-market.jpg" class="img-responsive center" alt="">
+                    <img src="/img/logos/creative-market.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
         </div>

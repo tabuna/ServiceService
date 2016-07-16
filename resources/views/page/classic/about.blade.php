@@ -27,13 +27,13 @@
                         </div>
 
 
-                        <p class="text-justify">
-                            Управляющая компания – Открытое акционерное общество «Особая экономическая зона промышленно-производственного типа «Липецк».
+                        <p class="text-justify small">
+                            «ОАО «ОЭЗ ППТ «Липецк» осуществляет строительство и эксплуатацию распределительных сетей электроснабжения, теплоснабжения, газоснабжения, водоснабжения, водоотведения и телекоммуникации на территории ОЭЗ ППТ «Липецк».
                         </p>
 
 
-                        <p class="text-justify">
-                            Дополнительное Соглашение № С-102-ОС/Д 14 от 03 апреля 2013 г. к Соглашению об управлении особой экономической зоной промышленно-производственного типа, созданной на территории Грязинского района Липецкой области, от 30 августа 2012 г. № С-305-ОС/Д 25.
+                        <p class="text-justify small">
+                            В данном разделе вы найдёте информацию порядке присоединения/подключения к сетям ОАО «ОЭЗ ППТ «Липецк», а также информацию о деятельности по передаче электрической энергии, поставке тепловой энергии в горячей воде, поставке питьевой воды, транспортировке сточных вод, транспортировке природного газа и сопутствующих услугах.»
                         </p>
 
 
@@ -219,9 +219,88 @@
 
 
 
+        <div class="container">
+            <div class="row v-center">
 
 
-    <div class="bg-img-map  box-shadow b-t  m-t-xxl">
+                <div class="col-md-4">
+
+                        <p class="h1 font-thin">
+                            <span class="text-danger">Who</span>
+                            <span class="text-dark">We </span>
+                            <span class="text-danger">Are?</span>
+                        </p>
+
+                        <p class="m-t-md">
+                            <small>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis .
+                            </small>
+                        </p>
+                        <p class="m-t-md">
+                            <a href="#" class="btn btn-dark btn-rounded">Read More <i class="fa fa-angle-right m-l-xs" aria-hidden="true"></i></a>
+                        </p>
+                </div>
+
+
+                <div class="col-md-6 col-md-offset-1">
+
+
+
+                    <div id="testimonial" class="clearfix">
+
+                            <div class="carousel auto slide clearfix" id="b-slide" data-interval="6000">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#b-slide" data-slide-to="0" class="bg-dark"></li>
+                                    <li data-target="#b-slide" data-slide-to="1" class="bg-dark active"></li>
+                                    <li data-target="#b-slide" data-slide-to="2" class="bg-dark"></li>
+                                </ol>
+                                <div class="carousel-inner text-center m-t-md m-b-xl">
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-12 m-b-xl">
+                                                <h4 class="font-thin l-h-2x  m-b-lg"><em>“Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at dolor sit amet, consectetur adipiscing elit. ”</em></h4>
+                                                <p class="text-muted text-right">- Suzanne Oliver, Chief Learning Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-sm-12  m-b-xl">
+                                                <h4 class="font-thin l-h-2x  m-b-lg"><em>"Integer eleifend, nisl venenatis consequat iaculis Duis non malesuada est, quis congue nibh. Pellentesque et netus et malesuada fames ac turpis malesuada est, quis congue nibh.”</em></h4>
+                                                <p class="text-muted text-right">- Leah Tate, PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-12  m-b-xl">
+                                                <h4 class="font-thin l-h-2x  m-b-lg"><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. ”</em></h4>
+                                                <p class="text-muted text-right">- Chapman, Employee Development Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <div class="bg-img-map  box-shadow b-t  m-t-md">
         <div class="bg-black-opacity">
         <div class="container">
             <div class="row m-t-xl m-b-xl">

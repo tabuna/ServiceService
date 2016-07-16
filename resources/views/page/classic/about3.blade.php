@@ -8,7 +8,7 @@
             <div class="row">
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="padder-v m-t-md m-b-md">
+                    <div class=" m-t-md m-b-md">
                         <div class="pull-left m-r-md">
                             <i class="fa fa-home fa-3x"></i>
                         </div>
@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="padder-v m-t-md m-b-md">
+                    <div class="m-t-md m-b-md">
                         <div class="pull-left m-r-md">
                             <i class="fa fa-clock-o fa-3x"></i>
                         </div>
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bg-danger">
-                    <div class="padder-v m-t-md m-b-md">
+                    <div class="m-t-md m-b-md">
                         <div class="pull-left  m-r-md ">
                             <i class="fa fa-phone fa-3x"></i>
                         </div>

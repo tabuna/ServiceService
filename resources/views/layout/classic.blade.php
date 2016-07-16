@@ -21,7 +21,7 @@
                     data-target=".navbar-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <a href="/" class="navbar-brand m-r-lg v-center">
+            <a href="/classic/" class="navbar-brand m-r-lg v-center">
                 <img src="/img/logo.png" class="m-r-sm" alt="Bounce">
                {{-- <span class="h4">Bounce</span> --}}
             </a>
@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/about">About As</a></li>
-                <li><a href="/clients">Service</a></li>
-                <li><a href="/worker">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/classic/about">About As</a></li>
+                <li><a href="/classic/clients">Service</a></li>
+                <li><a href="/classic/worker">Portfolio</a></li>
+                <li><a href="/classic/contact">Contact</a></li>
 
 
                 <li class="dropdown pos-stc">
@@ -47,39 +47,39 @@
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
                                             <li>
-                                                <a href="/about"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About</a>
+                                                <a href="/classic/about"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About</a>
                                             </li>
                                             <li>
-                                                <a href="/about2"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About2</a>
+                                                <a href="/classic/about2"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About2</a>
                                             </li>
                                             <li>
-                                                <a href="/about3"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About3</a>
+                                                <a href="/classic/about3"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>About3</a>
                                             </li>
 
                                             <li>
-                                                <a href="/contact"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Контакты</a>
+                                                <a href="/classic/contact"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Контакты</a>
                                             </li>
                                             <li>
-                                                <a href="/invoice"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Счёт</a>
+                                                <a href="/classic/invoice"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Счёт</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-xs-6">
                                         <ul class="list-unstyled l-h-2x">
                                             <li>
-                                                <a href="/price"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Price</a>
+                                                <a href="/classic/price"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Price</a>
                                             </li>
                                             <li>
-                                                <a href="/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>News</a>
+                                                <a href="/classic/news"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>News</a>
                                             </li>
                                             <li>
-                                                <a href="/team"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Team</a>
+                                                <a href="/classic/team"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Team</a>
                                             </li>
                                             <li>
-                                                <a href="/post"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Post</a>
+                                                <a href="/classic/post"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Post</a>
                                             </li>
                                             <li>
-                                                <a href="/404"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>404</a>
+                                                <a href="/classic/404"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>404</a>
                                             </li>
                                         </ul>
                                     </div>

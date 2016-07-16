@@ -17,21 +17,21 @@
         <div class="col-md-8 col-md-offset-2 padder-v">
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/richard.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/richard.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Richard Hendricks</p>
                         <small class="text-muted">CEO</small>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/jared.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/jared.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Jared (Donald) Dunn</p>
                         <small class="text-muted">Head of Business Development</small>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/erlich.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/erlich.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Erlich Bachman</p>
                         <small class="text-muted">Majority Investor</small>
@@ -41,21 +41,21 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/gilfoyle.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/gilfoyle.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Bertram Gilfoyle</p>
                         <small class="text-muted">Senior Systems Architect</small>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/dinesh.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/dinesh.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Dinesh Chugtai</p>
                         <small class="text-muted">Senior Programmer</small>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                    <img alt="pic" src="img/team/bighead.png" class="img-responsive center">
+                    <img alt="pic" src="/img/team/bighead.png" class="img-responsive center">
                     <div class="text-center padder-v">
                         <p class="h4 font-thin text-danger">Nelson "Big Head" Bighetti</p>
                         <small class="text-muted">Majority Investor</small>

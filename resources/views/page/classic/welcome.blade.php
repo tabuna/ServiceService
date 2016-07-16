@@ -20,12 +20,12 @@
                 </div>
 
 
-                <p class="text-justify">
+                <p class="text-justify small">
                     «ОАО «ОЭЗ ППТ «Липецк» осуществляет строительство и эксплуатацию распределительных сетей электроснабжения, теплоснабжения, газоснабжения, водоснабжения, водоотведения и телекоммуникации на территории ОЭЗ ППТ «Липецк».
                 </p>
 
 
-                <p class="text-justify">
+                <p class="text-justify small">
                     В данном разделе вы найдёте информацию порядке присоединения/подключения к сетям ОАО «ОЭЗ ППТ «Липецк», а также информацию о деятельности по передаче электрической энергии, поставке тепловой энергии в горячей воде, поставке питьевой воды, транспортировке сточных вод, транспортировке природного газа и сопутствующих услугах.»
                 </p>
 
@@ -56,6 +56,8 @@
 
 
 
+
+
     <div class="container m-t-xxl">
 
         <div class="row">
@@ -76,7 +78,13 @@
                                         <p class="h4">Управляющая компания</p>
                                     </div>
                                     <div class="panel-hover-body">
-                                        Highly customizable NVD3, rickshaw
+                                        Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...
                                     </div>
                                     <div class="panel-hover-icon">
                                         <i class="fa fa-user"></i>
@@ -94,7 +102,13 @@
                                         <p class="h4">Управляющая компания</p>
                                     </div>
                                     <div class="panel-hover-body">
-                                        Highly customizable NVD3, rickshaw
+                                        Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...Руководство компании «Кемин Индастриз» рассматривает возможность
+                                        размещения
+                                        предприятия...
                                     </div>
                                     <div class="panel-hover-icon">
                                         <i class="fa fa-user"></i>
@@ -107,62 +121,6 @@
                 </div>
 
 
-                <div class="row">
-                    <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default b-light m-n">
-                            <div class="panel-hover">
-                                <a href="/news" class="block wrapper-md">
-                                    <div class="panel-hover-title b-b">
-                                        <p>Управляющая компания</p>
-                                    </div>
-                                    <div class="panel-hover-body">
-                                        Highly customizable NVD3, rickshaw
-                                    </div>
-                                    <div class="panel-hover-icon">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default b-light m-n">
-                            <div class="panel-hover">
-                                <a href="/news" class="block wrapper-md">
-                                    <div class="panel-hover-title b-b">
-                                        <p>Управляющая компания</p>
-                                    </div>
-                                    <div class="panel-hover-body">
-                                        Highly customizable NVD3, rickshaw
-                                    </div>
-                                    <div class="panel-hover-icon">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wrapper-xs">
-                        <div class="panel panel-default b-light m-n">
-                            <div class="panel-hover">
-                                <a href="/virtualnyy-tur/" class="block wrapper-md">
-                                    <div class="panel-hover-title b-b">
-                                        <p>Управляющая компания</p>
-                                    </div>
-                                    <div class="panel-hover-body">
-                                        Highly customizable NVD3, rickshaw
-                                    </div>
-                                    <div class="panel-hover-icon">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
 
@@ -219,6 +177,16 @@
         </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+
 
 
     <div class="container m-t-xxl">
@@ -333,8 +301,118 @@
 
 
 
+    <section class="container-fluid">
 
 
+
+        <div class="container m-t-lg m-b-lg">
+            <div class="col-md-10">
+                <p class="h1 font-thin">We <span class="text-danger">Provides</span></p>
+
+                <div class="col-md-8 pull-in m-t-md">
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  </small>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row  m-b-xxl">
+            <div class="container">
+                <article class="col-md-3">
+                    <figure>
+                        <a href="/blog/347"><img src="/img/c10.jpg" alt="" class="img-responsive">
+                            <h4 class="font-thin">Up Comming Events</h4></a>
+
+                        <div class="b-b b-danger w-sm line-lg"></div>
+                        <figcaption>
+                            <time class="small">2016-07-14</time>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="col-md-3">
+                    <figure>
+                        <a href="/blog/344"><img src="/img/c9.jpg" alt="" class="img-responsive">
+                            <h4 class="font-thin">Perspiciatis unde omnis iste...</h4></a>
+
+                        <div class="b-b b-danger w-sm line-lg"></div>
+                        <figcaption>
+                            <time class="small">2016-07-12</time>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="col-md-3">
+                    <figure>
+                        <a href="/blog/343"><img src="/img/c8.jpg" alt="" class="img-responsive">
+                            <h4 class="font-thin">Cience In The New Era</h4></a>
+
+                        <div class="b-b b-danger w-sm line-lg"></div>
+                        <figcaption>
+                            <time class="small">2016-07-12</time>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="col-md-3">
+                    <figure>
+                        <a href="/blog/341"><img src="/img/c7.jpg" alt="" class="img-responsive">
+                            <h4 class="font-thin">Doloremque laudantium </h4></a>
+
+                        <div class="b-b b-danger w-sm line-lg"></div>
+                        <figcaption>
+                            <time class="small">2016-07-11</time>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="container-fluid m-t-xxl">
+
+        <div class="row">
+
+            <div class="container">
+
+
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <p class="h1 font-thin">We <span class="text-danger">Provides</span></p>
+
+                        <div class="col-md-8 pull-in m-t-md">
+                            <small>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+
+                        <div class="row">
+                            <a href="#" class="btn-opacity block">
+                                <img src="/img/agency/clients.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
 
 
 
