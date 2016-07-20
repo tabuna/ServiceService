@@ -328,22 +328,22 @@
     <div class="container">
         <div class="row padder-v">
             <div class="col-md-3 col-sm-6">
-                <a href="#">
+                <a href="#" class="btn-opacity block">
                     <img src="/img/logos/envato.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="#">
+                <a href="#" class="btn-opacity block">
                     <img src="/img/logos/designmodo.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="#">
+                <a href="#" class="btn-opacity block">
                     <img src="/img/logos/themeforest.jpg" class="img-responsive center" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="#">
+                <a href="#" class="btn-opacity block">
                     <img src="/img/logos/creative-market.jpg" class="img-responsive center" alt="">
                 </a>
             </div>

@@ -304,9 +304,14 @@
     <section class="container-fluid">
 
 
+<div class="row ">
 
-        <div class="container m-t-lg m-b-lg">
-            <div class="col-md-10">
+    <div class="container">
+
+        <div class="col-md-10 col-md-offset-1 m-t-lg m-b-lg">
+            <div class="row">
+
+            <div class="col-md-10 m-b-xxl">
                 <p class="h1 font-thin">We <span class="text-danger">Provides</span></p>
 
                 <div class="col-md-8 pull-in m-t-md">
@@ -314,13 +319,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  </small>
                 </div>
             </div>
-        </div>
 
 
-
-
-        <div class="row  m-b-xxl">
-            <div class="container">
                 <article class="col-md-3">
                     <figure>
                         <a href="/blog/347"><img src="/img/c10.jpg" alt="" class="img-responsive">
@@ -365,8 +365,12 @@
                         </figcaption>
                     </figure>
                 </article>
-            </div>
+
+
         </div>
+</div>
+        </div>
+    </div>
     </section>
 
 
