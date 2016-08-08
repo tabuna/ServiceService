@@ -12024,6 +12024,28 @@ jQuery(document).ready(function($) {
         time: 1000
     });
 });
+
+
+$( document ).ready(function() {
+    /* activate jquery isotope */
+    var $container = $('#posts').isotope({
+        itemSelector : '.item',
+        isFitWidth: true
+    });
+
+    $container.isotope({
+        columnWidth: '.col-sm-3'
+    });
+
+
+    $container.isotope({ filter: '*' });
+
+    // filter items on button click
+    $('#filters').on( 'click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $container.isotope({ filter: filterValue });
+    });
+});
 (function ($) {
     $(document).ready(function () {
         $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {

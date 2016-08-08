@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class=" b-t">
+    <div class="">
         <div class="container">
             <div class="row">
 
