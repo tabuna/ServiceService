@@ -14,25 +14,187 @@
 
 
 <!-- header -->
-<header id="header" class="navbar bg-white-only padder-v b-b box-shadow">
+<header id="header" class="navbar bg-white-only b-b box-shadow padder-v  navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse"
                     data-target=".navbar-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <a href="/" class="navbar-brand m-r-lg v-center">
+            <a href="#" class="navbar-brand padder-v">
                 <img src="/img/smoke/logo.png" class="m-r-sm" alt="Bounce">
-                {{-- <span class="h4">Bounce</span> --}}
             </a>
         </div>
         <div class="collapse navbar-collapse">
 
+
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown pos-stc">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="dropdown-menu wrapper w-full bg-white">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="m-l-xs m-t-xs m-b-xs font-bold text-center">Девайсы</div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 b-l b-light">
+                                <div class="m-l-xs m-t-xs m-b-xs font-bold text-center">Жидкости</div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 b-l b-light">
+                                <div class="m-l-xs m-t-xs m-b-xs font-bold text-center">Основы</div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 b-l b-light">
+
+                                <div class="m-l-xs m-t-xs m-b-xs font-bold text-center">Аксессуары</div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Подкатегория</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="list-unstyled l-h-2x">
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="font-thin"><i class="fa fa-fw fa-angle-right text-muted m-r-xs"></i>Производитель</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/about">About As</a></li>
-                <li><a href="/clients">Service</a></li>
-                <li><a href="/worker">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
             </ul>
 
 
