@@ -14,7 +14,7 @@
 
 
 <!-- header -->
-<header id="header" class="navbar  navbar-scroll  navbar-fixed-top padder-v">
+<header id="header" class="navbar bg-white-only padder-v b-b box-shadow">
     <div class="container">
         <div class="navbar-header">
             <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse"
@@ -23,7 +23,7 @@
             </button>
             <a href="/" class="navbar-brand m-r-lg v-center">
                 <img src="/img/logo.png" class="m-r-sm" alt="Bounce">
-               {{-- <span class="h4">Bounce</span> --}}
+                {{-- <span class="h4">Bounce</span> --}}
             </a>
         </div>
         <div class="collapse navbar-collapse">
@@ -44,7 +44,7 @@
 
 
 
-@yield('content')
+    @yield('content')
 
 
 
@@ -56,7 +56,7 @@
 
 
 <footer id="footer">
-    <div class="b-t m-t bg-dark">
+    <div class="bg-dark">
         <div class="container">
             <div class="row padder-v m-t">
                 <div class="col-xs-8">

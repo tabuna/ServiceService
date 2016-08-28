@@ -113,4 +113,64 @@
 
 
 
+  .paralax{
+    background: url('/img/sex/parallax.jpg') fixed;
+    height: 500px;
+    position: relative;
+    border-bottom: 1px solid @brand-danger;
+    overflow: hidden;
+    background-size: cover;
+    .app-img {
+      position: relative;
+      bottom: -60px;
+    }
+    .mobile-app-content {
+      margin-top: 160px;
+      color: #fff;
+      .app-buttons {
+        padding: 12px 0 0;
+        li {
+          float: left;
+          margin: 0 12px 0 0;
+        }
+      }
+    }
+  }
+
+  .paralax-auth {
+    background: url('/img/sex/paralax-city.jpg') fixed;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    .cart-body{
+      height: 300px;
+    }
+  }
+
+
+
+
+  .btn-void {
+    background: none;
+
+    box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);
+    padding: 10px 60px 10px 60px;
+    border-radius: 50px;
+    transition: 0.5s;
+    &.btn-danger{
+      color: @brand-danger!important;
+    }
+  }
+  .btn-void:hover {
+    transition: 0.5s;
+    &.btn-danger{
+      background: @brand-danger;
+      color: @brand-white!important;
+    }
+  }
+
+
+
+
 }

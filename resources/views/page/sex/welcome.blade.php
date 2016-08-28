@@ -490,174 +490,35 @@
 
 
 
-
-
-
-
-    <div class="container-fluid m-t-xxl">
-
-        <div class="row bg-dark b-b box-shadow v-center">
-
+    <section class="paralax container-fluid hidden-sm hidden-xs b-t m-t-xxl box-shadow-lg">
+        <div class="row h-full bg-black-opacity">
             <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="/img/sex/mobile/mobile-hand.png" class="app-img" alt="" title="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="mobile-app-content">
+                            <p class="h1 font-thin  m-b-lg">
+                                Write <span class="text-danger">to</span> us </p>
 
+                            <p class="h4 l-h-1x font-thin ">You can build cross-platform apps for iOS, Android, and Windows devices by using  standard web technologies such as HTML, CSS, and JavaScript.</p>
+                            <p></p>
 
+                            <ul class="list-unstyled app-buttons">
+                                <li><a href="#"><img src="/img/sex/mobile/app-store-btn.png" alt="" title="App Store"></a>
+                                </li>
+                                <li><a href="#"><img src="/img/sex/mobile/google-play-btn.png" alt=""
+                                                     title="Google App"></a></li>
+                            </ul>
 
-                <div class="row wrapper-lg">
-
-    <section id="isotope" class="about-section">
-        <div class="container">
-
-            <div id="filters" class="button-group text-center padder-v">
-                <button class="btn btn-dark btn-rounded btn-xs" data-filter="*">Show all</button>
-                <button class="btn btn-danger btn-rounded btn-xs" data-filter=".web">WEB</button>
-                <button class="btn btn-danger btn-rounded btn-xs" data-filter=".design">DESIGN</button>
-                <button class="btn btn-danger btn-rounded btn-xs" data-filter=".mobile">Mobile</button>
-            </div>
-
-            <div class="container-fluid no-gutter">
-
-                <div id="posts" class="row">
-                    <div id="1" class="item web col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero-test.jpg" class="portfolio-box">
-                                <img src="/img/hero-test.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
                         </div>
                     </div>
-                    <div id="2" class="item web col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero2.jpg" class="portfolio-box">
-                                <img src="/img/hero2.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="3" class="item design col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero3.jpg" class="portfolio-box">
-                                <img src="/img/hero3.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="4" class="item design col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero4.jpg" class="portfolio-box">
-                                <img src="/img/hero4.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="5" class="item web col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero5.jpg" class="portfolio-box">
-                                <img src="/img/hero5.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="6" class="item design col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero7.jpg" class="portfolio-box">
-                                <img src="/img/hero7.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div id="7" class="item design col-sm-3">
-                        <div class="item-wrap">
-                            <a href="/img/hero8.jpg" class="portfolio-box">
-                                <img src="/img/hero8.jpg" class="img-responsive" alt="">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Category
-                                        </div>
-                                        <div class="project-name">
-                                            Project Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-
-
-
                 </div>
             </div>
-
-
-
         </div>
     </section>
 
-</div>
-
-            </div>
-
-        </div>
-
-    </div>
 
 
 

@@ -14,7 +14,7 @@
 
 
 <!-- header -->
-<header id="header" class="navbar navbar-default bg-dark  dker b-b  box-shadow">
+<header id="header" class="navbar bg-white-only padder-v b-b box-shadow">
     <div class="container">
         <div class="navbar-header">
             <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse"
