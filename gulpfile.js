@@ -25,6 +25,7 @@ elixir(function(mix) {
         "./resources/assets/vendor/bootstrap/dist/js/bootstrap.min.js",
         './resources/assets/vendor/bootstrap-maxlength/src/bootstrap-maxlength.js',
         './resources/assets/vendor/jasny-bootstrap/dist/js/jasny-bootstrap.min.js',
+        './resources/assets/vendor/matchheight/dist/jquery.matchHeight-min.js',
         './resources/assets/vendor/PACE/pace.min.js',
 
         './resources/assets/vendor/jquery.easing/js/jquery.easing.min.js',
