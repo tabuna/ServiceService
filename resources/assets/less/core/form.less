@@ -216,3 +216,43 @@
     }
   }
 }
+
+
+
+
+
+
+.form-control-grey {
+  background-color: @brand-white;
+  background-image: none;
+  border: 1px solid @form-control-border-color;
+  font-family:Arial, sans-serif;
+  -webkit-appearance: none;
+  color: @brand-black;
+  outline: 0;
+  height: 35px;
+  padding: 9px 12px;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: normal;
+  vertical-align: middle;
+  min-height: 35px;
+  .transition(all 0.12s ease);
+  .box-shadow(none);
+  .border-radius(2px);
+  .transition(background 0.2s linear 0s);
+  &:focus{
+    border-color: fade(@brand-light, 10%);
+    background-color:@brand-light;
+    outline: 0 !important;
+    .box-shadow(none);
+    //.placeholder(inherit, .7);
+  }
+  //.placeholder(inherit, .33);
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] &{
+    background: mix(@brand-light, #fff, 50%);
+    color: fade(@brand-light, 23%);
+  }
+}

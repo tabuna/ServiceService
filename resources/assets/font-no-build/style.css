@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1vqfq6');
+  src:  url('fonts/icomoon.eot?1vqfq6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1vqfq6') format('truetype'),
+    url('fonts/icomoon.woff?1vqfq6') format('woff'),
+    url('fonts/icomoon.svg?1vqfq6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-architect:before {
+  content: "\e900";
+}
+.icon-beach:before {
+  content: "\e901";
+}
+.icon-bridge:before {
+  content: "\e902";
+}
+.icon-caffe:before {
+  content: "\e903";
+}
+.icon-church:before {
+  content: "\e904";
+}
+.icon-competition:before {
+  content: "\e905";
+}
+.icon-concert:before {
+  content: "\e906";
+}
+.icon-events:before {
+  content: "\e907";
+}
+.icon-exibition:before {
+  content: "\e908";
+}
+.icon-fair:before {
+  content: "\e909";
+}
+.icon-famous_people:before {
+  content: "\e90a";
+}
+.icon-festival:before {
+  content: "\e90b";
+}
+.icon-festivites:before {
+  content: "\e90c";
+}
+.icon-filter:before {
+  content: "\e90d";
+}
+.icon-for_kids:before {
+  content: "\e90e";
+}
+.icon-fun:before {
+  content: "\e90f";
+}
+.icon-history:before {
+  content: "\e910";
+}
+.icon-holidays:before {
+  content: "\e911";
+}
+.icon-hotel:before {
+  content: "\e912";
+}
+.icon-interwiev:before {
+  content: "\e913";
+}
+.icon-investors:before {
+  content: "\e914";
+}
+.icon-monument:before {
+  content: "\e916";
+}
+.icon-museum:before {
+  content: "\e918";
+}
+.icon-nature:before {
+  content: "\e919";
+}
+.icon-park:before {
+  content: "\e91c";
+}
+.icon-photo:before {
+  content: "\e91d";
+}
+.icon-route:before {
+  content: "\e91e";
+}
+.icon-testemonials:before {
+  content: "\e91f";
+}
+.icon-theater:before {
+  content: "\e920";
+}
+.icon-tour:before {
+  content: "\e921";
+}
+.icon-video:before {
+  content: "\e922";
+}
+

@@ -6,6 +6,369 @@
 
 
 
+
+
+
+
+
+
+
+
+    <div class="black dk b-b">
+        <div class="row no-gutter item-info-overlay">
+            <div class="col-sm-6 text-white">
+
+                <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active left"><img alt="First slide [900x500]"
+                                                           src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
+                                                           data-holder-rendered="true"><div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div>
+                            <div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
+                        <div class="item next left"><img alt="First slide [900x500]"
+                                                         src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
+                                                         data-holder-rendered="true"><div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
+                        <div class="item"><img alt="First slide [900x500]"
+                                               src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
+                                               data-holder-rendered="true">
+                            <div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
+                    </div>
+                    <a href="#carousel-example-generic" class="left carousel-control" role="button"
+                       data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span> </a> <a href="#carousel-example-generic"
+                                                                      class="right carousel-control" role="button"
+                                                                      data-slide="next"> <span
+                                class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span>
+                    </a></div>
+
+            </div>
+
+            <div class="col-md-6 square-top">
+                <div class="col-sm-6 col-xs-6 ">
+                    <div class="item">
+                        <div class="pos-rlt">
+                            <div class="top">
+                                <p class="text-white m-l-sm m-t-sm">Зимний дворец</p>
+                            </div>
+                            <div class="item-overlay bg-black-opacity">
+                                <div class="center text-center m-t-n w-full">
+                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                </div>
+                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
+                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
+                                                                                  data-toggle="dropdown"><i
+                                                class="fa fa-ellipsis-h"></i></a>
+                                    <div class="dropdown-menu pull-right  lt"></div>
+                                </div>
+                            </div>
+
+                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                    <div class="item">
+                        <div class="pos-rlt">
+                            <div class="top">
+                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            </div>
+                            <div class="item-overlay bg-black-opacity">
+                                <div class="center text-center m-t-n w-full">
+                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                </div>
+                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
+                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
+                                                                                  data-toggle="dropdown"><i
+                                                class="fa fa-ellipsis-h"></i></a>
+                                    <div class="dropdown-menu pull-right  lt"></div>
+                                </div>
+                            </div>
+
+                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/2.png" alt="" class="img-full"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                    <div class="item">
+                        <div class="pos-rlt">
+                            <div class="top">
+                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            </div>
+                            <div class="item-overlay bg-black-opacity">
+                                <div class="center text-center m-t-n w-full">
+                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                </div>
+                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
+                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
+                                                                                  data-toggle="dropdown"><i
+                                                class="fa fa-ellipsis-h"></i></a>
+                                    <div class="dropdown-menu pull-right  lt"></div>
+                                </div>
+                            </div>
+
+                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/3.png" alt="" class="img-full"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                    <div class="item">
+                        <div class="pos-rlt">
+                            <div class="top">
+                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            </div>
+                            <div class="item-overlay bg-black-opacity">
+                                <div class="center text-center m-t-n w-full">
+                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                </div>
+                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
+                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
+                                                                                  data-toggle="dropdown"><i
+                                                class="fa fa-ellipsis-h"></i></a>
+                                    <div class="dropdown-menu pull-right  lt"></div>
+                                </div>
+                            </div>
+
+                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/4.png" alt="" class="img-full"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <section class="container-fluid bg-white m-b-xs b-b box-shadow">
+
+
+        <div class="row  v-center m-t-md m-b-xs">
+            <div class="container">
+                <p class="h3 font-thin">Афиша</p>
+            </div>
+
+        </div>
+
+        <div class="row wrapper m-b-md">
+
+            <div class="owl-carousel owl-theme poster">
+
+
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/1.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/2.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/3.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/4.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/6.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/7.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/8.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/9.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/1.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/2.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/3.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/4.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/6.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/7.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/8.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="item ">
+                    <a href="#">
+                        <img src="/img/tour/afisha/9.png" class="img-responsive" alt="Макака на дереве">
+                        <figcaption>
+                            <div class="caption m-t-xs">
+                                <small class="text-ellipsis">Липецкая область отчиталась
+                                    о рекордных сборах винограда...</small>
+                                <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
         <div class="container-fluid bg-white m-b-md box-shadow-lg">
             <div class="container">
                 <div class="row wrapper">
@@ -16,7 +379,7 @@
                                 <p class="h3 font-thin">Популярное</p>
                             </div>
                             <div class="col-md-4 text-right">
-                                <a href="#" class="text-center h5  font-thin"><span class="text-muted">Смотреть все</span>
+                                <a href="#" class="text-center btn-more h5  font-thin"><span class="text-muted">Смотреть все</span>
                                     <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
                             </span>
@@ -244,7 +607,7 @@
                         </div>
 
                         <p class="text-right">
-                            <a href="#" class="text-center font-thin"><span class="text-muted">Смотреть все</span>
+                            <a href="#" class="text-center btn-more font-thin"><span class="text-muted">Смотреть все</span>
                                 <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
                             </span>
@@ -385,7 +748,7 @@ align-items: center;
                             <h4 class="m-b">Хотите хорошо отдохнуть?</h4>
                         </div>
                         <div class="col-sm-6 text-center">
-                            <a href="#" class="btn btn-lg btn-default btn-rounded ">Подробнее</a>
+                            <a href="#" class="btn btn-lg btn-outline btn-white btn-rounded">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -403,7 +766,7 @@ align-items: center;
                             <p class="h3 font-thin">Последние <span class="text-danger">Новости</span></p>
                         </div>
                         <div class="col-md-6 text-right">
-                            <a href="#" class="text-center h5  font-thin"><span class="text-muted">Смотреть все</span>
+                            <a href="#" class="text-center h5  btn-more font-thin"><span class="text-muted">Смотреть все</span>
                                 <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
                             </span>
@@ -639,11 +1002,16 @@ align-items: center;
                             <p class="h3 font-thin  m-b-lg">Новостная <span class="text-danger">Рассылка</span></p>
                             <form role="form" data-mh="main-last-block">
                                 <i class="icon-envelope-letter text-danger icon-title"></i>
-                                <div class="form-group m-t-md">
-                                    <label>Адрес электронной почты</label>
-                                    <input type="email" class="form-control" placeholder="Введите Email">
-                                    <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц и не будут использованы против вас в суде и банки не будут слать спам.</span>
+
+
+
+                                <div class="form-group form-group-default m-t-md">
+                                    <label class="text-sm text-left">Адрес электронной почты</label>
+                                    <input type="email" placeholder="Введите Email" class="form-control">
                                 </div>
+
+                                <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц и не будут использованы против вас в суде и банки не будут слать спам.</span>
+
                             </form>
 
                             <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
@@ -662,7 +1030,194 @@ align-items: center;
 
 
 
+    <div class="container">
+    <div class="row grid">
+        <div class="col-md-3 no-padder">
+            <figure class="effect-lily">
+                <img src="/img/tour/news/1.png" class="img-responsive" alt="img33">
+                <figcaption class="bg-black-opacity">
+                    <p class="padder-v pos-abt" style="bottom: 0">
+                        <span class="m-l-xs"><i class="fa fa-2x fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-2x fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
 
+        <div class="col-md-3 no-padder">
+            <figure class="effect-lily">
+                <img src="/img/tour/news/5.png" alt="img33">
+                <figcaption class="bg-black-opacity">
+                    <h2>Вкусные <span>Жидкости</span></h2>
+                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
+                    <a href="#">Смотреть всё</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-md-3 no-padder">
+            <figure class="effect-lily">
+                <img src="/img/tour/news/3.png" alt="img33">
+                <figcaption class="bg-black-opacity">
+                    <h2>Стабильные <span>Основы</span></h2>
+                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
+                    <a href="#">Смотреть всё</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-md-3 no-padder">
+            <figure class="effect-lily">
+                <img src="/img/tour/news/4.png" alt="img33">
+                <figcaption class="bg-black-opacity">
+                    <h2>Прикольные <span>Аксессуары</span></h2>
+                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
+                    <a href="#">Смотреть всё</a>
+                </figcaption>
+            </figure>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <div class="row">
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/1.png" class="img-full">
+                    <div class="panel-body">
+                    <a class="">
+                        <div class="caption m-t-xs">
+                            <p class="small">Елец объявляет о начале недели
+                                Елецкого Пива!</p>
+                        </div>
+                    </a>
+                        </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/3.png" class="img-full">
+                    <div class="panel-body">
+                        <a class="">
+                            <div class="caption m-t-xs">
+                                <p class="small">Елец объявляет о начале недели
+                                    Елецкого Пива!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/4.png" class="img-full">
+                    <div class="panel-body">
+                        <a class="">
+                            <div class="caption m-t-xs">
+                                <p class="small">Елец объявляет о начале недели
+                                    Елецкого Пива!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/5.png" class="img-full">
+                    <div class="panel-body">
+                        <a class="">
+                            <div class="caption m-t-xs">
+                                <p class="small">Елец объявляет о начале недели
+                                    Елецкого Пива!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/6.png" class="img-full">
+                    <div class="panel-body">
+                        <a class="">
+                            <div class="caption m-t-xs">
+                                <p class="small">Елец объявляет о начале недели
+                                    Елецкого Пива!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+            <article class="col-md-4 padder-v" data-mh="main-news">
+
+                <div class="panel panel-default box-shadow">
+                    <img src="/img/tour/news/7.png" class="img-full">
+                    <div class="panel-body">
+                        <a class="">
+                            <div class="caption m-t-xs">
+                                <p class="small">Елец объявляет о начале недели
+                                    Елецкого Пива!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-right">
+                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
+                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
+                    </div>
+                </div>
+
+
+            </article>
+        </div>
+    </div>
 
 
 
