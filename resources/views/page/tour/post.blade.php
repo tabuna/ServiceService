@@ -8,66 +8,7 @@
     <div class="container">
 
             <div class="row">
-                <div class="col-sm-9 b-r">
-                    <ol class="breadcrumb">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Онас</a></li>
-                        <li class="active">Управляющая компания</li>
-                    </ol>
-                    <div class="wrapper">
-                    <div class="blog-post">
-                        <div class="panel">
-                            <div>
-                                <img src="img/c0.jpg" class="img-full">
-                            </div>
-                            <div class="wrapper-lg">
-                                <h2 class="m-t-none"><a href="">7 things you need to know about the flat design</a></h2>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
-                                        <br><br>
-                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                                </div>
-                                <div class="line line-lg b-b b-light"></div>
-                                <div class="text-muted">
-                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
-                                    <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
-                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 comments</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="wrapper-lg">
-                                <h2 class="m-t-none"><a href="">Bootstrap 3: What you need to know</a></h2>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
-                                    </p>
-                                    <h3>Html5 and CSS3</h3>
-                                    <p>
-                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                                </div>
-                                <div class="line line-lg b-b b-light"></div>
-                                <div class="text-muted">
-                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
-                                    <i class="fa fa-clock-o text-muted"></i> Feb 15, 2013
-                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 4 comments</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center m-t-lg m-b-lg">
-                        <ul class="pagination pagination-md">
-                            <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
-                            <li class="active"><a href="">1</a></li>
-                            <li><a href="">2</a></li>
-                            <li><a href="">3</a></li>
-                            <li><a href="">4</a></li>
-                            <li><a href="">5</a></li>
-                            <li><a href=""><i class="fa fa-chevron-right"></i></a></li>
-                        </ul>
-                    </div>
-                        </div>
-                </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 panel box-shadow">
 
                     <aside id="aside" class="app-aside hidden-xs">
                         <div class="aside-wrap">
@@ -259,6 +200,65 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-9 b-l">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Онас</a></li>
+                        <li class="active">Управляющая компания</li>
+                    </ol>
+                    <div class="wrapper">
+                    <div class="blog-post">
+                        <div class="panel">
+                            <div>
+                                <img src="img/c0.jpg" class="img-full">
+                            </div>
+                            <div class="wrapper-lg">
+                                <h2 class="m-t-none"><a href="">7 things you need to know about the flat design</a></h2>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
+                                        <br><br>
+                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
+                                </div>
+                                <div class="line line-lg b-b b-light"></div>
+                                <div class="text-muted">
+                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
+                                    <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
+                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="wrapper-lg">
+                                <h2 class="m-t-none"><a href="">Bootstrap 3: What you need to know</a></h2>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
+                                    </p>
+                                    <h3>Html5 and CSS3</h3>
+                                    <p>
+                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
+                                </div>
+                                <div class="line line-lg b-b b-light"></div>
+                                <div class="text-muted">
+                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
+                                    <i class="fa fa-clock-o text-muted"></i> Feb 15, 2013
+                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 4 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center m-t-lg m-b-lg">
+                        <ul class="pagination pagination-md">
+                            <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
+                            <li class="active"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">4</a></li>
+                            <li><a href="">5</a></li>
+                            <li><a href=""><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+                        </div>
                 </div>
             </div>
         </div>

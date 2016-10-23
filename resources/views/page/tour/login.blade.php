@@ -5,52 +5,95 @@
 
 
 
+    <div class="container m-t-xxl">
 
 
-    <div class="container">
+        <div class="panel b box-shadow wrapper-lg">
 
-        <div class="page-header">
-            <h1>Example page header <small>Subtext for header</small></h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Login</div>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                                {{ csrf_field() }}
+
+                                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                    <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+
+                                    <div class="col-md-6">
+                                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+
+                                        @if ($errors->has('email'))
+                                            <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                                    <label for="password" class="col-md-4 control-label">Password</label>
+
+                                    <div class="col-md-6">
+                                        <input id="password" type="password" class="form-control" name="password">
+
+                                        @if ($errors->has('password'))
+                                            <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-6 col-md-offset-4">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="remember"> Remember Me
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-6 col-md-offset-4">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-btn fa-sign-in"></i> Login
+                                        </button>
+
+                                        <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="well well-primary">
+                        <p class="lead">Sign Up now for Free
+                        </p>
+                        <ul class="list-unstyled" style="line-height: 2">
+                            <li><span class="fa fa-check text-success"></span> Create orders</li>
+                            <li><span class="fa fa-check text-success"></span> Pay for services</li>
+                            <li><span class="fa fa-check text-success"></span> Check order status</li>
+                            <li><span class="fa fa-check text-success"></span> Send questions</li>
+                            <li><span class="fa fa-check text-success"></span> Leave reviews</li>
+                        </ul>
+                        <p class="text-center"><a href="/auth/register/" class="btn btn-info">Sign Up</a></p>
+
+                        <p class="text-center"><a target="_blank"
+                                                  href=" /page/public-offer-on-provision-of-translation-and-other-services ">Terms
+                                of use</a>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
 
-    <div class="row wrapper-lg">
-    <div class="col-xs-6">
-        <div class="well">
-            <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
-                <div class="form-group">
-                    <label for="username" class="control-label">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
-                    <span class="help-block"></span>
-                </div>
-                <div class="form-group">
-                    <label for="password" class="control-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
-                    <span class="help-block"></span>
-                </div>
-                <div id="loginErrorMsg" class="alert alert-error hide">Wrong username og password</div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="remember" id="remember"> Remember login
-                    </label>
-                    <p class="help-block">(if this is a private computer)</p>
-                </div>
-                <button type="submit" class="btn btn-success btn-block">Login</button>
-                <a href="/forgot/" class="btn btn-default btn-block">Help to login</a>
-            </form>
-        </div>
     </div>
-    <div class="col-xs-4 col-md-offset-2">
-        <p class="lead">Register now for <span class="text-success">FREE</span></p>
-        <ul class="list-unstyled" style="line-height: 2">
-            <li><span class="fa fa-check text-success"></span> See all your orders</li>
-            <li><span class="fa fa-check text-success"></span> Fast re-order</li>
-            <li><span class="fa fa-check text-success"></span> Save your favorites</li>
-            <li><span class="fa fa-check text-success"></span> Fast checkout</li>
-            <li><span class="fa fa-check text-success"></span> Get a gift <small>(only new customers)</small></li>
-            <li><a href="/read-more/"><u>Read more</u></a></li>
-        </ul>
-        <p><a href="/new-customer/" class="btn btn-info btn-block">Yes please, register now!</a></p>
     </div>
-</div>
-</div>
-    @endsection
+@endsection

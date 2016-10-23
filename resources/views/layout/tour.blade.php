@@ -147,13 +147,13 @@ align-items: center;
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#"><i class="icon-login m-r-xs"></i> Вход</a>
-                    </li>
-                    <li>
                         <a href="#"  data-target="#modalSeachIn" data-toggle="modal"><i class="ion-ios-search m-r-xs"></i>Поиск</a>
                         </li>
                     <li>
                         <a href="#"><i class="icon-globe m-r-xs"></i> Ru/En</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-login m-r-xs"></i> Вход</a>
                     </li>
                 </ul>
             </div>

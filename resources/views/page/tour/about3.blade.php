@@ -3,56 +3,18 @@
 @section('content')
 
 
-    <div class="">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class=" m-t-md m-b-md">
-                        <div class="pull-left m-r-md">
-                            <i class="fa fa-home fa-3x"></i>
-                        </div>
-                        <div class="text">
-                            <strong>Свяжитесь с нами +7 (4742) 227-887</strong><br>
-                            <small class="font-thin">г. Липецк, ул. Октябрьская 61</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="m-t-md m-b-md">
-                        <div class="pull-left m-r-md">
-                            <i class="fa fa-clock-o fa-3x"></i>
-                        </div>
-                        <div class="text">
-                            <strong>График работы</strong><br>
-                            <small class="font-thin">Пн - Пт: 8:00 - 21:00, Сб: 8:00 - 14:00</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bg-danger">
-                    <div class="m-t-md m-b-md">
-                        <div class="pull-left  m-r-md ">
-                            <i class="fa fa-phone fa-3x"></i>
-                        </div>
-                        <div class="text">
-                            <strong>Заказать звонок</strong><br>
-                            <small class="font-thin">Мы ответим на Ваши вопросы</small>
-                        </div>
-                        <a href="/feedback" class="link"></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    <aside class="container">
+        <ol class="breadcrumb">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Онас</a></li>
+            <li class="active">Управляющая компания</li>
+        </ol>
+    </aside>
 
 
 
-
-    <aside class="container-fluid b-t b-b">
-        <div class="row v-center">
+    <section class="container panel b box-shadow wrapper-lg m-t-xxl  b-t b-b">
+        <div class="row  v-center">
 
             <div class="col-md-6 center">
                 <div class="row"><img src="/img/bg1.jpg" class="w-full h-full"></div>
@@ -87,10 +49,9 @@
             </div>
 
         </div>
-    </aside>
 
 
-    <section class="container">
+
         <div class="page-header text-center">
             <p class="h2">Как стать резидентом</p>
         </div>
@@ -127,16 +88,7 @@
             </div>
 
         </div>
-    </section>
 
-
-
-
-
-
-
-
-    <section class="container m-t-xxl">
         <div class="row">
             <div class="col-md-6">
                 <h2>ОЭЗ «Липецк»</h2>
@@ -211,7 +163,6 @@
                 </div>
             </div>
         </div>
-    </section>
 
 
 
