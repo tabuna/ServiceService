@@ -11,6 +11,13 @@
 |
 */
 
+Route::get('/', function ($name = 'welcome', $page = 'welcome') {
+		return view('page.tour.welcome');
+});
+
+
+
+
 Route::get('/{name?}/{page?}', function ($name = 'welcome', $page = 'welcome') {
     if($name === 'welcome' && $page === 'welcome') {
         return view($name);

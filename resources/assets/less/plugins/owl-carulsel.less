@@ -183,6 +183,49 @@
 }
 
 
+.main-carousel{
+  a{
+    transition: 340ms;
+    display: block;
+  }
+  a:hover{
+    background: @brand-light;
+  }
+
+  .owl-prev{
+    left: 0;
+    background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    color: @brand-white;
+  }
+  .owl-next{
+    right: 0;
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+
+    color: @brand-white;
+  }
+
+  img{
+    height: 640px!important;
+    object-fit: cover;
+  }
+  figcaption{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    color: @brand-white;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 .owl-nav{
   div{
     position: absolute;
@@ -201,7 +244,10 @@
   .owl-next{
     right: 0;
   }
-
 }
+
+
+
+
 
 

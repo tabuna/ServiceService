@@ -18,32 +18,56 @@
         <div class="row no-gutter item-info-overlay">
             <div class="col-sm-6 text-white">
 
-                <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active left"><img alt="First slide [900x500]"
-                                                           src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
-                                                           data-holder-rendered="true"><div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div>
-                            <div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
-                        <div class="item next left"><img alt="First slide [900x500]"
-                                                         src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
-                                                         data-holder-rendered="true"><div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
-                        <div class="item"><img alt="First slide [900x500]"
-                                               src="http://flatfull.com/themes/pulse/images/c1.jpg" class="img-full"
-                                               data-holder-rendered="true">
-                            <div class="carousel-caption"> <h3>Third slide label</h3> <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> </div></div>
-                    </div>
-                    <a href="#carousel-example-generic" class="left carousel-control" role="button"
-                       data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span> </a> <a href="#carousel-example-generic"
-                                                                      class="right carousel-control" role="button"
-                                                                      data-slide="next"> <span
-                                class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span>
-                    </a></div>
+
+
+
+
+
+                <div class="owl-carousel owl-theme main-carousel">
+                    <figure class="item">
+                        <a href="#">
+                            <img src="/img/tour/slider/main-1.png" class="img-responsive" alt="Макака на дереве">
+                            <figcaption>
+                                <div class="caption m-t-xs m-l-xxl m-b-xxl text-while">
+                                    <time class="h3 font-thin text-white"> 15 октября</time>
+                                    <p class="h2 text-ellipsis">Мультивековой фестиваль
+                                        «Данбург»</p>
+                                </div>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item">
+                        <a href="#">
+                            <img src="https://g-a.d-cd.net/835081u-960.jpg" class="img-responsive" alt="Макака на дереве">
+                            <figcaption>
+                                <div class="caption m-t-xs m-l-xxl m-b-xxl text-while">
+                                    <time class="h3 font-thin text-white"> 15 октября</time>
+                                    <p class="h2 text-ellipsis">Мультивековой фестиваль
+                                        «Данбург»</p>
+                                </div>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item">
+                        <a href="#">
+                            <img src="http://www.zastavki.com/pictures/originals/2015/Cities_Winter_Lipetsk_095776_.jpg" class="img-responsive" alt="Макака на дереве">
+                            <figcaption>
+                                <div class="caption m-t-xs m-l-xxl m-b-xxl text-while">
+                                    <time class="h3 font-thin text-white"> 15 октября</time>
+                                    <p class="h2 text-ellipsis">Мультивековой фестиваль
+                                        «Данбург»</p>
+                                </div>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+
+
+
+
+
+
 
             </div>
 
@@ -159,7 +183,7 @@
 
         <div class="row wrapper m-b-md">
 
-            <div class="owl-carousel owl-theme poster">
+            <div class="owl-carousel owl-theme poster poster-carousel">
 
 
                 <figure class="item ">
@@ -693,23 +717,23 @@ align-items: center;
 
                             <div class="col-md-4">
                                 <div class="list-group list-group-lg m-b-none list-icon-service">
-                                    <a href="#" class="list-group-item"><i class="icon-people m-r-md"></i>Достопримечательности<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-people m-r-md"></i>Достопримечательности<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-direction m-r-md"></i>События<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-clock m-r-md"></i>Новости<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-shield m-r-md"></i>Размещение<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-mustache m-r-md"></i>Гастрономия<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-disc m-r-md"></i>Транспорт<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-architect m-r-md"></i>Памятники архитектуры<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-beach m-r-md"></i>Пляжи<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-bridge m-r-md"></i>Мосты<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-caffe m-r-md"></i>Кафе<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-church m-r-md"></i>Святыний<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-competition m-r-md"></i>Соревнования<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-concert m-r-md"></i>Концерты<span class="pull-right text-muted"> 42</span></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="list-group list-group-lg m-b-none list-icon-service">
-                                    <a href="#" class="list-group-item"><i class="icon-people m-r-md"></i>Достопримечательности<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-people m-r-md"></i>Достопримечательности<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-direction m-r-md"></i>События<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-clock m-r-md"></i>Новости<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-shield m-r-md"></i>Размещение<span class="pull-right text-muted"> 42</span></a>
-                                    <a href="#" class="list-group-item"><i class="icon-mustache m-r-md"></i>Гастрономия<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-exibition m-r-md"></i>Выставки<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-fair m-r-md"></i>Ярмарки<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-famous_people m-r-md"></i>Известные люди<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-festival m-r-md"></i>Фестивали<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-for_kids m-r-md"></i>Мероприятия для детей<span class="pull-right text-muted"> 42</span></a>
+                                    <a href="#" class="list-group-item"><i class="icon-lip-fun m-r-md"></i>Развлекательные центры<span class="pull-right text-muted"> 42</span></a>
                                     <a href="#" class="list-group-item"><i class="icon-disc m-r-md"></i>Транспорт<span class="pull-right text-muted"> 42</span></a>
                                 </div>
                             </div>
@@ -1028,196 +1052,6 @@ align-items: center;
 
         </section>
 
-
-
-    <div class="container">
-    <div class="row grid">
-        <div class="col-md-3 no-padder">
-            <figure class="effect-lily">
-                <img src="/img/tour/news/1.png" class="img-responsive" alt="img33">
-                <figcaption class="bg-black-opacity">
-                    <p class="padder-v pos-abt" style="bottom: 0">
-                        <span class="m-l-xs"><i class="fa fa-2x fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-2x fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </p>
-                </figcaption>
-            </figure>
-        </div>
-
-        <div class="col-md-3 no-padder">
-            <figure class="effect-lily">
-                <img src="/img/tour/news/5.png" alt="img33">
-                <figcaption class="bg-black-opacity">
-                    <h2>Вкусные <span>Жидкости</span></h2>
-                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
-                    <a href="#">Смотреть всё</a>
-                </figcaption>
-            </figure>
-        </div>
-
-        <div class="col-md-3 no-padder">
-            <figure class="effect-lily">
-                <img src="/img/tour/news/3.png" alt="img33">
-                <figcaption class="bg-black-opacity">
-                    <h2>Стабильные <span>Основы</span></h2>
-                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
-                    <a href="#">Смотреть всё</a>
-                </figcaption>
-            </figure>
-        </div>
-
-        <div class="col-md-3 no-padder">
-            <figure class="effect-lily">
-                <img src="/img/tour/news/4.png" alt="img33">
-                <figcaption class="bg-black-opacity">
-                    <h2>Прикольные <span>Аксессуары</span></h2>
-                    <p class="padder-v">Таким образом новая модель организационной деятельности в значительной степени обуславливает создание модели развития.</p>
-                    <a href="#">Смотреть всё</a>
-                </figcaption>
-            </figure>
-        </div>
-
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-    <div class="container">
-
-        <div class="row">
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/1.png" class="img-full">
-                    <div class="panel-body">
-                    <a class="">
-                        <div class="caption m-t-xs">
-                            <p class="small">Елец объявляет о начале недели
-                                Елецкого Пива!</p>
-                        </div>
-                    </a>
-                        </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/3.png" class="img-full">
-                    <div class="panel-body">
-                        <a class="">
-                            <div class="caption m-t-xs">
-                                <p class="small">Елец объявляет о начале недели
-                                    Елецкого Пива!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/4.png" class="img-full">
-                    <div class="panel-body">
-                        <a class="">
-                            <div class="caption m-t-xs">
-                                <p class="small">Елец объявляет о начале недели
-                                    Елецкого Пива!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/5.png" class="img-full">
-                    <div class="panel-body">
-                        <a class="">
-                            <div class="caption m-t-xs">
-                                <p class="small">Елец объявляет о начале недели
-                                    Елецкого Пива!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/6.png" class="img-full">
-                    <div class="panel-body">
-                        <a class="">
-                            <div class="caption m-t-xs">
-                                <p class="small">Елец объявляет о начале недели
-                                    Елецкого Пива!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-            <article class="col-md-4 padder-v" data-mh="main-news">
-
-                <div class="panel panel-default box-shadow">
-                    <img src="/img/tour/news/7.png" class="img-full">
-                    <div class="panel-body">
-                        <a class="">
-                            <div class="caption m-t-xs">
-                                <p class="small">Елец объявляет о начале недели
-                                    Елецкого Пива!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="panel-footer text-right">
-                        <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
-                        <span class="m-l-xs"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
-                        <span class="m-l-xs"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
-                    </div>
-                </div>
-
-
-            </article>
-        </div>
-    </div>
 
 
 

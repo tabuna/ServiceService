@@ -12221,13 +12221,15 @@ if ($(".navbar-scroll")[0]) {
     });
 }
 
-$('.owl-carousel').owlCarousel({
+$('.poster-carousel').owlCarousel({
     loop:true,
     margin:15,
     nav:true,
     navText: [
-      '<i class="icon-arrow-left"></i>',
-        '<i class="icon-arrow-right"></i>'
+        '',
+        '',
+      //'<i class="icon-arrow-left"></i>',
+        //'<i class="icon-arrow-right"></i>'
     ],
     responsive:{
         0:{
@@ -12240,6 +12242,21 @@ $('.owl-carousel').owlCarousel({
             items:12
         }
     }
+});
+
+$('.main-carousel').owlCarousel({
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    loop:true,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    navText: [
+        '<i class="icon-arrow-left"></i>',
+        '<i class="icon-arrow-right"></i>'
+    ],
+    items:1,
 });
 function popupCenter(url, title, w, h) {
     var left = (screen.width/2)-(w/2);
