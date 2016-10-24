@@ -16,7 +16,7 @@
 
     <div class="black dk b-b">
         <div class="row no-gutter item-info-overlay">
-            <div class="col-sm-6 text-white">
+            <div class="col-xs-12 col-sm-12 col-md-6 text-white">
 
 
 
@@ -71,12 +71,13 @@
 
             </div>
 
-            <div class="col-md-6 square-top">
+            <div class="hidden-xs hidden-sm col-md-6 square-top">
                 <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
                         <div class="pos-rlt">
-                            <div class="top">
-                                <p class="text-white m-l-sm m-t-sm">Зимний дворец</p>
+                            <div class="bottom wrapper">
+                                <time class="h5 font-thin text-white"> 23 сентября</time>
+                                <p><a href="#" class="text-white text-lg">Золотая осень в Коломне</a></p>
                             </div>
                             <div class="item-overlay bg-black-opacity">
                                 <div class="center text-center m-t-n w-full">
@@ -89,8 +90,7 @@
                                     <div class="dropdown-menu pull-right  lt"></div>
                                 </div>
                             </div>
-
-                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
+                            <a href="#"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
                         </div>
                     </div>
                 </div>
@@ -160,6 +160,23 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="col-sm-6 col-xs-6 bottom-line bg-white">
+                    <p class="h3 font-thin">Интересные <span class="text-danger">События</span> Области</p>
+                </div>
+
+                <div class="col-sm-6 col-xs-6 bottom-line bg-white">
+                  <p class="w-full m-n">
+                    <a href="#" class="pull-right btn-more h5  font-thin"><span class="text-muted">Смотреть все</span>
+                        <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                    </a>
+                    </p>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -1003,7 +1020,7 @@ align-items: center;
                         <article class="col-md-4">
                             <p class="h3 font-thin m-b-lg">Фото <span class="text-danger">Липецкой Области</span></p>
                             <a class=""  data-mh="main-last-block">
-                             <img src="/img/tour/photo.png" class="img-full" height="460px">
+                             <img src="/img/tour/photo.png" class="img-full" height="350px">
                             </a>
 
 
@@ -1014,7 +1031,7 @@ align-items: center;
                                 <img src="/img/tour/konkurs.png" class="img-responsive">
                                 <p class="h4 m-t-md m-b-md">Фотоконкурс<br>
                                 «Девушки Липецка»</p>
-                                <p class="small padder-v">
+                                <p class="small padder-v hidden">
                                     Таким образом сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.
                                 </p>
                             </div>
@@ -1034,11 +1051,11 @@ align-items: center;
                                     <input type="email" placeholder="Введите Email" class="form-control">
                                 </div>
 
-                                <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц и не будут использованы против вас в суде и банки не будут слать спам.</span>
+                                <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц.</span>
 
                             </form>
 
-                            <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
+                            <button type="submit" class="m-t-md btn btn-outline btn-danger btn-rounded">Подписаться</button>
 
                         </article>
                     </div>

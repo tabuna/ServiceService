@@ -16327,11 +16327,22 @@ fieldset[disabled] .form-control-grey {
   color: #3a3f51 !important;
 }
 .square-top img {
-  height: 320px;
+  height: 32rem;
   object-fit: cover;
+}
+.square-top .bottom {
+  z-index: 1;
 }
 .square-top .bg-black-opacity {
   transition: all 340ms ease 200ms;
+}
+.square-top .bottom-line {
+  height: 11rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15pt;
 }
 /*Charts*/
 .jqstooltip {
@@ -17297,7 +17308,7 @@ figure.effect-steve:hover p {
   color: #fff;
 }
 .main-carousel img {
-  height: 640px!important;
+  height: 75rem!important;
   object-fit: cover;
 }
 .main-carousel figcaption {
