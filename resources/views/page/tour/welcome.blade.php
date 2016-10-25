@@ -97,8 +97,11 @@
                 <div class="col-sm-6 col-xs-6">
                     <div class="item">
                         <div class="pos-rlt">
-                            <div class="top">
-                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            <div class="bottom wrapper">
+                                <time class="h5 font-thin text-white"> 25 сентября</time>
+                                <p><a href="#" class="text-white text-lg">
+                                        Танцы в «Есенинке»
+                                    </a></p>
                             </div>
                             <div class="item-overlay bg-black-opacity">
                                 <div class="center text-center m-t-n w-full">
@@ -119,8 +122,11 @@
                 <div class="col-sm-6 col-xs-6">
                     <div class="item">
                         <div class="pos-rlt">
-                            <div class="top">
-                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            <div class="bottom wrapper">
+                                <time class="h5 font-thin text-white"> 27 сентября</time>
+                                <p><a href="#" class="text-white text-lg">
+                                        Мастер-класс для детей и взрослых
+                                    </a></p>
                             </div>
                             <div class="item-overlay bg-black-opacity">
                                 <div class="center text-center m-t-n w-full">
@@ -141,8 +147,12 @@
                 <div class="col-sm-6 col-xs-6">
                     <div class="item">
                         <div class="pos-rlt">
-                            <div class="top">
-                                <p class="text-white m-l-sm m-t-sm">Ближайшее событие</p>
+                            <div class="bottom wrapper">
+                                <time class="h5 font-thin text-white"> 3 октября</time>
+                                <p><a href="#" class="text-white text-lg">
+                                        Елецкие «Антоновские яблоки»
+                                        в начале октрября
+                                    </a></p>
                             </div>
                             <div class="item-overlay bg-black-opacity">
                                 <div class="center text-center m-t-n w-full">
@@ -413,13 +423,13 @@
         <div class="container-fluid bg-white m-b-md box-shadow-lg">
             <div class="container">
                 <div class="row wrapper">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-xs-12">
 
                         <div class="row padder-v v-center">
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-xs-12">
                                 <p class="h3 font-thin">Популярное</p>
                             </div>
-                            <div class="col-md-4 text-right">
+                            <div class="col-md-4 text-right hidden-xs">
                                 <a href="#" class="text-center btn-more h5  font-thin"><span class="text-muted">Смотреть все</span>
                                     <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -561,7 +571,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 hidden-xs">
 
                         <div class="row padder-v v-center">
                             <div class="col-md-6">
@@ -632,7 +642,7 @@
 </small>
             </span>
                             </a>
-                            <a ui-sref="music.detail" class="list-group-item clearfix" href="#/music/detail">
+                            <a class="list-group-item clearfix" href="#/music/detail">
                                            <span class="pull-right text-muted m-l">
                                     <span class="block"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</span>
                                     <span class="block"><i class="fa fa-comment-o" aria-hidden="true"></i> 10</span>
@@ -665,7 +675,7 @@
         <section class="container m-b-md">
             <div class="row">
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 hidden-xs text-center">
                     <div class="panel wrapper-xl b box-shadow-lg padder-lg" data-mh="main-info-block" style="
 width: 100%;
 background: #c6c6c6;
@@ -681,7 +691,7 @@ align-items: center;
                     </div>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 col-xs-12 text-center">
                     <div class="panel wrapper-xl  b box-shadow-lg  padder-lg" data-mh="main-info-block">
                         <i class="icon-info text-danger icon-title"></i>
                         <p class="h4 font-thin padder-v" data-mh="main-info-block-title">Туристско-информационные
@@ -693,7 +703,7 @@ align-items: center;
                         <a class="btn btn-outline btn-danger btn-rounded">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 col-xs-12 text-center">
                     <div class="panel wrapper-xl b box-shadow-lg  padder-lg" data-mh="main-info-block">
                         <i class="icon-chart text-danger icon-title"></i>
                         <p class="h4 font-thin padder-v"  data-mh="main-info-block-title">Инвесторам</p>
@@ -803,10 +813,10 @@ align-items: center;
 
 
                     <div class="row padder-v v-center">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-xs-12">
                             <p class="h3 font-thin">Последние <span class="text-danger">Новости</span></p>
                         </div>
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 text-right hidden-xs">
                             <a href="#" class="text-center h5  btn-more font-thin"><span class="text-muted">Смотреть все</span>
                                 <span class="btn btn-outline btn-danger btn-rounded btn-sm btn-icon btn-default m-l-sm">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -818,111 +828,299 @@ align-items: center;
                     </div>
 
                     <div class="row">
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/1.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Елец объявляет о начале недели
-                                        Елецкого Пива!</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/1.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">Елец объявляет о начале недели
+                                        Елецкого Пива!</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/2.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">В Грязях пройдет встреча
-                                        выпускников 1956</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/2.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">
+                                        <a href="#">Лебеди НЛМК почернели от
+                                        графита</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/3.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Лебеди НЛМК почернели от
-                                        графита</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/3.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">В Грязях пройдет встреча
+                                        выпускников 1956</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/4.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">В парке Победы устроили
-                                        летний перфоманс</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/4.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">В парке Победы устроили
+                                        летний перфоманс</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/5.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Липецкая область отчиталась
-                                        о рекордных сборах винограда...</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/5.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">Липецкая область отчиталась
+                                        о рекордных сборах винограда...</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/6.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Поделки маленькой Ельчанки
-                                        покорили Ким Чен Ына</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/6.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">Поделки маленькой Ельчанки
+                                        покорили Ким Чен Ына</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/7.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Полиция разыскивает людей,
-                                        раскидывающих лодки на берегу</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/7.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">Полиция разыскивает людей,
+                                        раскидывающих лодки на берегу</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
-                        <article class="col-md-3 padder-v" data-mh="main-news">
-
-                            <a class="">
-                                <img src="/img/tour/news/8.png" class="img-responsive">
-                                <div class="caption m-t-xs">
-                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
-                                    <p class="small">Львы-близнецы Тимоша и
-                                        Тотоша обживаются в Липецко...</p>
+                        <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
+                            <figure class="item">
+                                <div class="pos-rlt bg-black">
+                                    <div class="item-overlay bg-black-opacity">
+                                        <div class="center text-center m-t-n w-full">
+                                            <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                        </div>
+                                        <div class="bottom w-full text-right padder">
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-heart-o"></i>
+                                                10</span>
+                                            </a>
+                                            <a href="#" class="btn btn-icon m-l-xs">
+                                                <span class="text-white"><i class="fa fa-comment-o"></i>
+                                                26</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/tour/news/8.png" alt="" class="img-full"></a>
                                 </div>
-                            </a>
-
-
+                                <figcaption class="caption m-t-xs">
+                                    <time class="small text-muted font-thin"> 29 Июня 2016</time>
+                                    <p class="small">  <a href="#">Елец объявляет о начале недели
+                                        Елецкого Пива!</a></p>
+                                </figcaption>
+                            </figure>
                         </article>
                     </div>
+
+
+                    <div class="row">
+                        <article class="col-md-4 padder-v">
+                            <div class="panel panel-default box-shadow">
+                                <div data-mh="main-news-img">
+                                    <a href="#"><img src="img/tour/news/1.png" class="img-full"></a>
+                                </div>
+                                <div class="wrapper-md">
+                                    <div data-mh="main-news-body">
+                                        <p class="h4 m-b-xs"><a href="">Россия: Карты болельщиков ЧМ-2018 начнут выдавать в ноябре</a></p>
+                                        <p class="text-xs">
+                                                Министр связи и массовых коммуникаций РФ Николай Никифоров сообщил, что карты болельщиков Чемпионата Мира по футболу-2018 будут высылаться "Почтой России".
+                                        </p>
+                                    </div>
+                                    <div class="line line-lg b-b b-light"></div>
+                                    <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                                    <div class="text-muted text-right">
+                                        <a href="" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                        <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 padder-v">
+                            <div class="panel panel-default box-shadow">
+                                <div data-mh="main-news-img">
+                                    <a href="#"><img src="img/tour/news/4.png" class="img-full"></a>
+                                </div>
+                                <div class="wrapper-md">
+                                    <div data-mh="main-news-body">
+                                    <p class="h4 m-b-xs"><a href="">Фестиваль «Ты, душа моя, игрушечка!» собрал народных умельцев из разных регионов страны</a></p>
+                                    <p class="text-xs">
+                                        В Липецком областном выставочном зале прошел III Межрегиональный фестиваль-конкурс народного ремесла «Ты душа моя, игрушечка».
+                                    </p>
+                                        </div>
+
+
+                                    <div class="line line-lg b-b b-light"></div>
+                                    <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                                    <div class="text-muted text-right">
+                                        <a href="" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                        <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 padder-v">
+                            <div class="panel panel-default box-shadow">
+                                <div data-mh="main-news-img">
+                                    <a href="#"><img src="img/tour/news/3.png" class="img-full"></a>
+                                </div>
+                                <div class="wrapper-md">
+                                    <div data-mh="main-news-body">
+                                    <p class="h4 m-b-xs"><a href="">Мастер-класс: «Пояс-поясок!»</a></p>
+                                    <p class="text-xs">
+                                        30 октября Татьяна Мануковская проведет интерактивное занятие.
+                                    </p>
+                                        </div>
+
+                                    <div class="line line-lg b-b b-light"></div>
+                                    <time class="small text-muted font-thin pull-left"> 29 Июня 2016</time>
+                                    <div class="text-muted text-right">
+                                        <a href="" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                        <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </article>
+
+                    </div>
+
 
 
 

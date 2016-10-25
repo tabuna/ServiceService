@@ -301,3 +301,31 @@ figure.effect-steve:hover p {
 }
 
 
+
+
+
+.hover-zoom {
+  figure{
+    max-width: 100%;
+    overflow: hidden;
+    img{
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: .4s ease-in-out;
+      transition: .4s ease-in-out;
+    }
+
+    .pos-rlt{
+      width: 100%;
+      overflow: hidden;
+    }
+
+    &:hover{
+      img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+  }
+}

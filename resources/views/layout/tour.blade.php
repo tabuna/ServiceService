@@ -190,7 +190,7 @@ align-items: center;
                         <i class="icon-phone fa-2x"></i>
                         <a class="wrapper-sm">Телефон: (4742) 47-23-23</a>
                     </div>
-                    <div class="col-md-3 v-center">
+                    <div class="col-md-3 v-center hidden-xs">
                         <i class="icon-info fa-2x"></i>
                         <a class="wrapper-sm" role="button" data-toggle="collapse" href="#collapse-recommended-links"
                            aria-expanded="false" aria-controls="collapse-recommended-links">Полезные ссылки</a>
@@ -289,10 +289,10 @@ align-items: center;
         </div>
     </div>
 
-    <div class="wrapper b-t bg-gray">
+    <div class="wrapper b-t bg-gray hidden-xs">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
 
                     <h4 class="text-u-c m-b font-thin text-uppercase">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</h4>
                     <ul class="list-unstyled m-b-md text-sm">
@@ -331,7 +331,7 @@ align-items: center;
 
 
                 </div>
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
 
 
                     <h4 class="text-u-c m-b font-thin text-uppercase">ФОТО</h4>
@@ -363,7 +363,7 @@ align-items: center;
 
                 </div>
                 <div class="clearfix hidden-sm hidden-lg hidden-md"></div>
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
 
 
                     <h4 class="text-u-c m-b font-thin text-uppercase">ДОСУГ</h4>
@@ -404,7 +404,7 @@ align-items: center;
 
 
                 </div>
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
 
 
                     <h4 class="text-u-c m-b font-thin text-uppercase">ТРАНСПОРТ</h4>
