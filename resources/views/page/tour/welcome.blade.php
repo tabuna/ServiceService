@@ -86,86 +86,77 @@
                                 </div>
 
                             </div>
-                            <a href="#"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
+                            <a href="#">
+                                <div class="bg-black-opacity"></div>
+                                <img src="img/tour/slider/1.png" alt="" class="img-full">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-6">
+                <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
                         <div class="pos-rlt">
                             <div class="bottom wrapper">
-                                <time class="h5 font-thin text-white"> 25 сентября</time>
-                                <p><a href="#" class="text-white text-lg">
-                                        Танцы в «Есенинке»
-                                    </a></p>
-                            </div>
-                            <div class="item-overlay bg-black-opacity">
-                                <div class="center text-center m-t-n w-full">
-                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                <div class="header">
+                                    <time class="h5 font-thin text-white"> 23 сентября</time>
+                                    <p class="h4">Золотая осень в Коломне</p>
                                 </div>
-                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
-                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
-                                                                                  data-toggle="dropdown"><i
-                                                class="fa fa-ellipsis-h"></i></a>
-                                    <div class="dropdown-menu pull-right  lt"></div>
+                                <div class="meta text-muted">
+                                    <a href="#like" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                    <a href="#comment" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
                                 </div>
-                            </div>
 
-                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/2.png" alt="" class="img-full"></a>
+                            </div>
+                            <a href="#">
+                                <div class="bg-black-opacity"></div>
+                                <img src="img/tour/slider/2.png" alt="" class="img-full">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-6">
+                <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
                         <div class="pos-rlt">
                             <div class="bottom wrapper">
-                                <time class="h5 font-thin text-white"> 27 сентября</time>
-                                <p><a href="#" class="text-white text-lg">
-                                        Мастер-класс для детей и взрослых
-                                    </a></p>
-                            </div>
-                            <div class="item-overlay bg-black-opacity">
-                                <div class="center text-center m-t-n w-full">
-                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                <div class="header">
+                                    <time class="h5 font-thin text-white"> 23 сентября</time>
+                                    <p class="h4">Золотая осень в Коломне</p>
                                 </div>
-                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
-                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
-                                                                                  data-toggle="dropdown"><i
-                                                class="fa fa-ellipsis-h"></i></a>
-                                    <div class="dropdown-menu pull-right  lt"></div>
+                                <div class="meta text-muted">
+                                    <a href="#like" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                    <a href="#comment" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
                                 </div>
-                            </div>
 
-                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/3.png" alt="" class="img-full"></a>
+                            </div>
+                            <a href="#">
+                                <div class="bg-black-opacity"></div>
+                                <img src="img/tour/slider/3.png" alt="" class="img-full">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-6">
+                <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
                         <div class="pos-rlt">
                             <div class="bottom wrapper">
-                                <time class="h5 font-thin text-white"> 3 октября</time>
-                                <p><a href="#" class="text-white text-lg">
-                                        Елецкие «Антоновские яблоки»
-                                        в начале октрября
-                                    </a></p>
-                            </div>
-                            <div class="item-overlay bg-black-opacity">
-                                <div class="center text-center m-t-n w-full">
-                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                <div class="header">
+                                    <time class="h5 font-thin text-white"> 23 сентября</time>
+                                    <p class="h4">Золотая осень в Коломне</p>
                                 </div>
-                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
-                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
-                                                                                  data-toggle="dropdown"><i
-                                                class="fa fa-ellipsis-h"></i></a>
-                                    <div class="dropdown-menu pull-right  lt"></div>
+                                <div class="meta text-muted">
+                                    <a href="#like" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                    <a href="#comment" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
                                 </div>
-                            </div>
 
-                            <a ui-sref="music.detail" href="#/music/detail"><img src="img/tour/slider/4.png" alt="" class="img-full"></a>
+                            </div>
+                            <a href="#">
+                                <div class="bg-black-opacity"></div>
+                                <img src="img/tour/slider/4.png" alt="" class="img-full">
+                            </a>
                         </div>
                     </div>
                 </div>
+
 
 
                 <div class="col-sm-6 col-xs-6 bottom-line bg-white">

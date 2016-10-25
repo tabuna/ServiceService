@@ -16381,6 +16381,12 @@ fieldset[disabled] .form-control-grey {
   bottom: 60px;
   padding: 0 30px 0 30px;
 }
+.square-top .item:hover .bg-black-opacity {
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
 .square-top .bg-black-opacity {
   transition: all 340ms ease 200ms;
 }
