@@ -74,20 +74,20 @@
             <div class="hidden-xs hidden-sm col-md-6 square-top">
                 <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
-                        <a href="#" class="block pos-rlt">
+                        <div class="pos-rlt">
                             <div class="bottom wrapper">
                                 <div class="header">
                                     <time class="h5 font-thin text-white"> 23 сентября</time>
                                     <p class="h4">Золотая осень в Коломне</p>
                                  </div>
                                 <div class="meta text-muted">
-                                    <a href="" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
-                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
+                                    <a href="#like" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                    <a href="#comment" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
                                 </div>
 
                             </div>
-                           <img src="img/tour/slider/1.png" alt="" class="img-full">
-                        </a>
+                            <a href="#"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-6">
