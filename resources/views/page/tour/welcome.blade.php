@@ -198,7 +198,7 @@
 
 
 
-    <section class="container-fluid bg-white m-b-xs b-b box-shadow">
+    <section class="container-fluid bg-white  b-b box-shadow">
 
 
         <div class="row  v-center m-t-md m-b-xs">
