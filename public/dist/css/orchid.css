@@ -16343,7 +16343,42 @@ fieldset[disabled] .form-control-grey {
   object-fit: cover;
 }
 .square-top .bottom {
-  z-index: 1;
+  z-index: 20;
+}
+.square-top .bottom a {
+  color: #fff;
+}
+.square-top .bottom ahover {
+  text-decoration: underline;
+  color: #fff;
+}
+.square-top .item {
+  overflow: hidden;
+}
+.square-top .item .header {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 30px 0 30px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.square-top .item .meta {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -100vh;
+  padding: 0 30px 30px 30px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+}
+.square-top .item:hover .meta {
+  bottom: 0;
+}
+.square-top .item:hover .header {
+  bottom: 60px;
 }
 .square-top .bg-black-opacity {
   transition: all 340ms ease 200ms;

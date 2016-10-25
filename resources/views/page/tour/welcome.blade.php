@@ -74,24 +74,20 @@
             <div class="hidden-xs hidden-sm col-md-6 square-top">
                 <div class="col-sm-6 col-xs-6 ">
                     <div class="item">
-                        <div class="pos-rlt">
+                        <a href="#" class="block pos-rlt">
                             <div class="bottom wrapper">
-                                <time class="h5 font-thin text-white"> 23 сентября</time>
-                                <p><a href="#" class="text-white text-lg">Золотая осень в Коломне</a></p>
-                            </div>
-                            <div class="item-overlay bg-black-opacity">
-                                <div class="center text-center m-t-n w-full">
-                                    <a><i class="fa fa-2x icon-eye text-white"></i></a>
+                                <div class="header">
+                                    <time class="h5 font-thin text-white"> 23 сентября</time>
+                                    <p class="h4">Золотая осень в Коломне</p>
+                                 </div>
+                                <div class="meta text-muted">
+                                    <a href="" class="m-l-sm"><i class="fa fa-heart-o text-muted"></i> 2 </a>
+                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 </a>
                                 </div>
-                                <div class="bottom pull-right wrapper"><a href="#" class="btn-favorite"><i
-                                                class="fa fa-heart-o"></i></a> <a href="#" class="btn-more"
-                                                                                  data-toggle="dropdown"><i
-                                                class="fa fa-ellipsis-h"></i></a>
-                                    <div class="dropdown-menu pull-right  lt"></div>
-                                </div>
+
                             </div>
-                            <a href="#"><img src="img/tour/slider/1.png" alt="" class="img-full"></a>
-                        </div>
+                           <img src="img/tour/slider/1.png" alt="" class="img-full">
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-6">
@@ -446,7 +442,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/1.png" alt="" class="img-full r r-2x"></a>
@@ -462,7 +458,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/2.png" alt="" class="img-full r r-2x"></a>
@@ -478,7 +474,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/3.png" alt="" class="img-full r r-2x"></a>
@@ -494,7 +490,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/4.png" alt="" class="img-full r r-2x"></a>
@@ -510,7 +506,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/5.png" alt="" class="img-full r r-2x"></a>
@@ -526,7 +522,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/6.png" alt="" class="img-full r r-2x"></a>
@@ -542,7 +538,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a href="#/music/detail"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a href="#/music/detail"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/7.png" alt="" class="img-full r r-2x"></a>
@@ -558,7 +554,7 @@
                                     <div class="pos-rlt">
                                         <div class="item-overlay bg-black-opacity r r-2x">
                                             <div class="center text-center m-t-n w-full">
-                                                <a  href="#"><i class="fa fa-2x fa fa-eye text-white"></i></a>
+                                                <a  href="#"><i class="fa fa-2x icon-eye  text-white"></i></a>
                                             </div>
                                         </div>
                                         <a  href="#"><img src="/img/tour/service/8.png" alt="" class="img-full r r-2x"></a>
@@ -1048,6 +1044,7 @@ align-items: center;
                     </div>
 
 
+                    {{--
                     <div class="row">
                         <article class="col-md-4 padder-v">
                             <div class="panel panel-default box-shadow">
@@ -1120,7 +1117,7 @@ align-items: center;
                         </article>
 
                     </div>
-
+--}}
 
 
 
@@ -1208,7 +1205,7 @@ align-items: center;
 
 
 
-
+{{--
         <section class="container-fluid bg-white b-t box-shadow-lg">
             <div class="container padder-v">
                 <div class="col-md-12">
@@ -1247,9 +1244,6 @@ align-items: center;
                         <article class="col-md-4 wrapper-xl">
                             <p class="h3 font-thin  m-b-lg">Новостная <span class="text-danger">Рассылка</span></p>
                             <form role="form" data-mh="main-last-block">
-                               {{-- <i class="icon-envelope-letter text-danger icon-title"></i> --}}
-
-
 
                                 <div class="form-group form-group-default m-t-md">
                                     <label class="text-sm text-left">Адрес электронной почты</label>
@@ -1273,6 +1267,69 @@ align-items: center;
             </div>
 
         </section>
+--}}
+
+
+
+
+    <section class="container-fluid bg-white b-t box-shadow-lg">
+        <div class="container padder-v">
+            <div class="col-md-12">
+
+
+                <div class="row text-center">
+                    <article class="col-md-4 wrapper-xl">
+                        <p class="h3 font-thin m-b-lg">Фото <span class="text-danger">Липецкой Области</span></p>
+                        <a class=""  data-mh="main-last-block">
+                            <img src="/img/tour/photo.png" class="img-full" height="350px">
+                        </a>
+
+
+                    </article>
+                    <article class="col-md-4 wrapper-xl" >
+                        <p class="h3 font-thin  m-b-lg">Текущий <span class="text-danger">Конкурс</span></p>
+                        <div class=""  data-mh="main-last-block">
+                            <img src="/img/tour/konkurs.png" class="img-responsive">
+                            <p class="h4 m-t-md m-b-md">Фотоконкурс<br>
+                                «Девушки Липецка»</p>
+                            <p class="small padder-v">
+                                Таким образом сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.
+                            </p>
+                        </div>
+                        <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
+
+
+                    </article>
+                    <article class="col-md-4 wrapper-xl">
+                        <p class="h3 font-thin  m-b-lg">Новостная <span class="text-danger">Рассылка</span></p>
+                        <form role="form" data-mh="main-last-block">
+                            <i class="icon-envelope-letter text-danger icon-title"></i>
+
+
+
+                            <div class="form-group form-group-default m-t-md">
+                                <label class="text-sm text-left">Адрес электронной почты</label>
+                                <input type="email" placeholder="Введите Email" class="form-control">
+                            </div>
+
+                            <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц.</span>
+
+                        </form>
+
+                        <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
+
+                    </article>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
 
 
 
