@@ -1223,7 +1223,7 @@ align-items: center;
 
 
                         </article>
-                        <article class="col-md-4 wrapper-xl" >
+                        <article class="col-md-4 wrapper-xl b-r b-l">
                             <p class="h3 font-thin  m-b-lg">Текущий <span class="text-danger">Конкурс</span></p>
                             <div class=""  data-mh="main-last-block">
                                 <img src="/img/tour/konkurs.png" class="img-responsive">
