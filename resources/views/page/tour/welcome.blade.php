@@ -1215,32 +1215,39 @@ align-items: center;
 
 
                     <div class="row text-center">
-                        <article class="col-md-4">
-                            <p class="h3 font-thin m-b-lg">Фото <span class="text-danger">Липецкой Области</span></p>
-                            <a class=""  data-mh="main-last-block">
-                             <img src="/img/tour/photo.png" class="img-full" height="350px">
-                            </a>
+
+                        <article class="col-md-4 wrapper-xl">
+                            <p class="h3 font-thin  m-b-lg">Фото <span class="text-danger">Липецкой Области</span></p>
+                            <div class="wrapper"  data-mh="main-last-block">
+                                <i class="icon-picture text-danger icon-title-small"></i>
+                                <!--<img src="/img/tour/konkurs.png" class="img-responsive">-->
+                                <p class="h4 font-thin padder-v">
+                                    Все фотографии области в нашей галерее
+                                </p>
+                            </div>
+                            <button type="submit" class="btn btn-outline btn-danger btn-rounded">Посмотреть</button>
 
 
                         </article>
+
                         <article class="col-md-4 wrapper-xl b-r b-l">
                             <p class="h3 font-thin  m-b-lg">Текущий <span class="text-danger">Конкурс</span></p>
-                            <div class=""  data-mh="main-last-block">
-                                <img src="/img/tour/konkurs.png" class="img-responsive">
-                                <p class="h4 m-t-md m-b-md">Фотоконкурс<br>
-                                «Девушки Липецка»</p>
-                                <p class="small padder-v hidden">
-                                    Таким образом сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.
+                            <div class="wrapper"  data-mh="main-last-block">
+                                <i class="icon-badge text-danger icon-title-small"></i>
+                                <!--<img src="/img/tour/konkurs.png" class="img-responsive">-->
+
+                                <p class="h4 font-thin padder-v">
+                                    «Девушки Липецка»
                                 </p>
                             </div>
-                            <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
+                            <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подробнее</button>
 
 
                         </article>
                         <article class="col-md-4 wrapper-xl">
                             <p class="h3 font-thin  m-b-lg">Новостная <span class="text-danger">Рассылка</span></p>
                             <form role="form" data-mh="main-last-block">
-                                <i class="icon-envelope-letter text-danger icon-title"></i>
+                               {{-- <i class="icon-envelope-letter text-danger icon-title"></i> --}}
 
 
 
@@ -1253,7 +1260,7 @@ align-items: center;
 
                             </form>
 
-                            <button type="submit" class="m-t-md btn btn-outline btn-danger btn-rounded">Подписаться</button>
+                            <button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button>
 
                         </article>
                     </div>

@@ -16100,6 +16100,17 @@ fieldset[disabled] .form-control-grey {
   font-size: 40pt;
   display: block;
 }
+.icon-title-small {
+  margin: auto;
+  width: 45pt;
+  height: 45pt;
+  line-height: 45pt!important;
+  text-align: center;
+  border-radius: 50%;
+  border: 1pt dashed #ccc;
+  font-size: 20pt;
+  display: block;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('/dist/fonts/icomoon.eot?fifbxu');
