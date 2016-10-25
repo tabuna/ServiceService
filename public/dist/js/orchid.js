@@ -12222,14 +12222,17 @@ if ($(".navbar-scroll")[0]) {
 }
 
 $('.poster-carousel').owlCarousel({
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
     loop:true,
-    margin:15,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    margin:15,
     navText: [
-        '',
-        '',
-      //'<i class="icon-arrow-left"></i>',
-        //'<i class="icon-arrow-right"></i>'
+      '<i class="icon-arrow-left"></i>',
+        '<i class="icon-arrow-right"></i>'
     ],
     responsive:{
         0:{
