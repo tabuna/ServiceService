@@ -28,6 +28,8 @@ elixir(function(mix) {
         './resources/assets/vendor/matchheight/dist/jquery.matchHeight-min.js',
         './resources/assets/vendor/PACE/pace.min.js',
         './resources/assets/vendor/owl.carousel/dist/owl.carousel.min.js',
+        "./resources/assets/vendor/slider-pro/dist/js/jquery.sliderPro.min.js",
+
 
         './resources/assets/vendor/jquery.easing/js/jquery.easing.min.js',
         './resources/assets/vendor/waypoints/lib/jquery.waypoints.min.js',

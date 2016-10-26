@@ -217,6 +217,12 @@ align-items: center;
 
                             <a onclick="popupCenter('https://twitter.com/share?url={{Request::url()}}', '',600,400);"
                                href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-twitter"></i></a>
+
+                            <a onclick="popupCenter('https://twitter.com/share?url={{Request::url()}}', '',600,400);"
+                               href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey">
+                            <i class="fa fa-rss" aria-hidden="true"></i>
+                            </a>
+
                         </p>
 
                     </div>
