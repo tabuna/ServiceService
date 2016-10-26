@@ -12253,7 +12253,7 @@ $('.main-carousel').owlCarousel({
     loop:true,
     nav:true,
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     navText: [
         '<i class="icon-arrow-left"></i>',

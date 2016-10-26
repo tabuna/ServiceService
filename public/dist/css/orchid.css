@@ -16111,6 +16111,18 @@ fieldset[disabled] .form-control-grey {
   font-size: 20pt;
   display: block;
 }
+.icon-image {
+  color: #fff;
+  transition: 0.5s;
+}
+.icon-image a {
+  color: #fff;
+  transition: 0.5s;
+}
+.icon-image a:hover {
+  color: #3a3f51;
+  background: #edf1f2;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('/dist/fonts/icomoon.eot?fifbxu');

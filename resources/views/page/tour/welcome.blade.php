@@ -814,6 +814,7 @@ align-items: center;
 
                     </div>
 
+                    {{--
                     <div class="row">
                         <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
                             <figure class="item">
@@ -1033,9 +1034,9 @@ align-items: center;
                             </figure>
                         </article>
                     </div>
+                    --}}
 
 
-                    {{--
                     <div class="row">
                         <article class="col-md-4 padder-v">
                             <div class="panel panel-default box-shadow">
@@ -1108,7 +1109,7 @@ align-items: center;
                         </article>
 
                     </div>
---}}
+
 
 
 
@@ -1135,7 +1136,7 @@ align-items: center;
                                 <div class="item">
                                     <div class="pos-rlt">
                                         <div class="bottom pull-left wrapper-lg">
-                                            <span class="m-l-sm m-t-sm">
+                                            <span class="m-l-sm m-t-sm icon-image">
                                                   <a href="#" class="btn btn-icon btn-rounded text-white wrapper-xs b b-white m-l-xs"><i class="fa fa-facebook"></i></a>
                                                   <a href="#" class="btn btn-icon btn-rounded text-white wrapper-xs b b-white m-l-xs"><i class="fa fa-twitter"></i></a>
                                                   <a href="#" class="btn btn-icon btn-rounded text-white wrapper-xs b b-white m-l-xs"><i class="fa fa-google-plus"></i></a>
@@ -1196,7 +1197,6 @@ align-items: center;
 
 
 
-{{--
         <section class="container-fluid bg-white b-t box-shadow-lg">
             <div class="container padder-v">
                 <div class="col-md-12">
@@ -1258,11 +1258,10 @@ align-items: center;
             </div>
 
         </section>
---}}
 
 
 
-
+{{--
     <section class="container-fluid bg-white b-t box-shadow-lg">
         <div class="container padder-v">
             <div class="col-md-12">
@@ -1320,7 +1319,7 @@ align-items: center;
         </div>
 
     </section>
-
+--}}
 
 
 
