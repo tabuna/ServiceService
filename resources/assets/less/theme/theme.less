@@ -2,7 +2,6 @@
 // Carousel
 // --------------------------------------------------
 
-
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
@@ -38,11 +37,13 @@
         .translate3d(100%, 0, 0);
         left: 0;
       }
+
       &.prev,
       &.active.left {
         .translate3d(-100%, 0, 0);
         left: 0;
       }
+
       &.next.left,
       &.prev.right,
       &.active {
@@ -149,21 +150,20 @@
   }
   .icon-prev,
   .icon-next {
-    width:  20px;
+    width: 20px;
     height: 20px;
     line-height: 1;
     font-family: serif;
   }
 
-
   .icon-prev {
     &:before {
-      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+      content: '\2039'; // SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
     }
   }
   .icon-next {
     &:before {
-      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+      content: '\203a'; // SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
     }
   }
 }
@@ -186,7 +186,7 @@
 
   li {
     display: inline-block;
-    width:  10px;
+    width: 10px;
     height: 10px;
     margin: 1px;
     text-indent: -999px;
@@ -204,11 +204,11 @@
     // For IE8, we set solid black as it doesn't support `rgba()`. For IE9, we
     // set alpha transparency for the best results possible.
     background-color: #000 \9; // IE8
-    background-color: rgba(0,0,0,0); // IE9
+    background-color: rgba(0, 0, 0, 0); // IE9
   }
   .active {
     margin: 0;
-    width:  12px;
+    width: 12px;
     height: 12px;
     background-color: @brand-dark;
   }
@@ -232,7 +232,6 @@
     text-shadow: none; // No shadow for button elements in carousel-caption
   }
 }
-
 
 // Scale up controls for tablets and up
 @media screen and (min-width: @screen-sm-min) {
@@ -271,9 +270,7 @@
   }
 }
 
-
-
-.btn-grey{
+.btn-grey {
   opacity: 0.8;
   .button-variant(#fff, @brand-light, @brand-light);
   &:hover {
@@ -286,31 +283,29 @@
   }
 }
 
-
-
-.panel-hover{
+.panel-hover {
   position: relative;
   word-wrap: break-word;
   min-height: 100px;
-  &:hover{
+  &:hover {
     color: @brand-white;
 
-    .panel-hover-body{
+    .panel-hover-body {
       color: @brand-light;
     }
-    a{
-      color: @brand-white!important;
+    a {
+      color: @brand-white !important;
     }
     transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
     border-radius: 0 0 70% 0;
     background-color: @brand-danger;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
   }
-  &:not(hover){
+  &:not(hover) {
     transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
   }
 
-  .panel-hover-icon{
+  .panel-hover-icon {
     position: absolute;
     float: right;
     right: 0;
@@ -319,54 +314,21 @@
     font-size: 2em;
   }
 
-  .panel-hover-body{
+  .panel-hover-body {
     display: block;
     padding-top: 0.8vw;
     padding-bottom: 0.8vw;
     color: @text-muted;
     font-size: 0.8em;
   }
-  .panel-hover-title{
+  .panel-hover-title {
     font-size: 1em;
     line-height: 1.1;
     padding-bottom: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Разрез
@@ -378,18 +340,19 @@
   width: 100%;
   min-height: 30em;
 }
+
 .option, .option img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
+
 .option {
   overflow: hidden;
   position: absolute;
   transform: skewX(-25deg);
   transform-origin: 0% 100%;
 }
-
 
 .option img, .option:after {
   transform: skewX(25deg);
@@ -400,48 +363,57 @@
  * Разрез
 */
 
-
-.bg-img-map{
+.bg-img-map {
   background: url('/img/map.jpg') #000 no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-
-
-
 /*
  * .breadcrumb
  */
 
-.breadcrumb{
-  padding: 15px 0 0;
+.breadcrumb {
+  //padding: 15px 0 0;
   margin-bottom: 0;
   list-style: none;
   background-color: inherit;
-  font-size: 12px;
+  font-size: 10pt;
   font-weight: 300;
+  color: @text-muted;
+  a {
+    transition: 340ms;
+    color: @brand-white;
+    opacity: 0.7;
+    &:hover {
+      color: @brand-white;
+      opacity: 1;
+    }
+  }
+
+  .active {
+    color: #fff;
+    opacity: 0.5;
+  }
+
 }
 
-
-
-.block-items{
-  padding:0;
+.block-items {
+  padding: 0;
   height: 200px;
   overflow: hidden;
-  a{
+  a {
     display: block;
     height: 100%;
-    &:hover{
+    &:hover {
       background: @brand-light;
       transition: 500ms;
     }
-    &:not(hover){
+    &:not(hover) {
       transition: 500ms;
     }
   }
 }
-
 
 .pace {
   -webkit-pointer-events: none;
@@ -466,15 +438,14 @@
   height: 2px;
 }
 
-.slide-md{
-  max-height:300px;
-  .item{
-    max-height:300px;
+.slide-md {
+  max-height: 300px;
+  .item {
+    max-height: 300px;
   }
 }
 
-
-.paralax-3{
+.paralax-3 {
   background: url('/img/hero10.jpg') fixed;
   min-height: 700px;
   height: 100%;
@@ -483,10 +454,41 @@
   background-size: cover;
 }
 
-
-.paralax-4{
-  background: url('/img/hero2.jpg') fixed ;
+.paralax-4 {
+  background: url('/img/hero2.jpg') fixed;
   position: relative;
   overflow: hidden;
   background-size: cover;
+}
+
+.top-desc-block {
+  time {
+    display: block;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    span {
+      display: block;
+    }
+
+    .date {
+      padding: 30px 0;
+      color: @brand-danger;
+      min-height: 120pt;
+
+    }
+    .time {
+      .padder-v;
+      .h4;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      color: @brand-white;
+      background: @brand-danger;
+    }
+
+  }
+
 }
