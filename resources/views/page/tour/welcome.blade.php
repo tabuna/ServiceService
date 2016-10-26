@@ -814,7 +814,6 @@ align-items: center;
 
                     </div>
 
-                    {{--
                     <div class="row">
                         <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
                             <figure class="item">
@@ -1034,9 +1033,9 @@ align-items: center;
                             </figure>
                         </article>
                     </div>
-                    --}}
 
 
+                    {{--
                     <div class="row">
                         <article class="col-md-4 padder-v">
                             <div class="panel panel-default box-shadow">
@@ -1109,7 +1108,7 @@ align-items: center;
                         </article>
 
                     </div>
-
+--}}
 
 
 
@@ -1197,6 +1196,7 @@ align-items: center;
 
 
 
+{{--
         <section class="container-fluid bg-white b-t box-shadow-lg">
             <div class="container padder-v">
                 <div class="col-md-12">
@@ -1258,10 +1258,11 @@ align-items: center;
             </div>
 
         </section>
+--}}
 
 
 
-{{--
+
     <section class="container-fluid bg-white b-t box-shadow-lg">
         <div class="container padder-v">
             <div class="col-md-12">
@@ -1319,7 +1320,7 @@ align-items: center;
         </div>
 
     </section>
---}}
+
 
 
 
