@@ -14,7 +14,7 @@
 
 
 
-    <div class="black dk b-b">
+    <div class="black dk b-b vi-hide">
         <div class="row no-gutter item-info-overlay">
             <div class="col-xs-12 col-sm-12 col-md-6 text-white">
 
@@ -185,7 +185,7 @@
 
 
 
-    <section class="container-fluid bg-white  b-b box-shadow">
+    <section class="container-fluid bg-white  b-b box-shadow vi-hide">
 
 
         <div class="row  v-center m-t-md m-b-xs">
@@ -407,7 +407,7 @@
 
 
 
-        <div class="container-fluid bg-white m-b-md box-shadow-lg">
+        <div class="container-fluid bg-white m-b-md box-shadow-lg vi-hide">
             <div class="container">
                 <div class="row wrapper">
                     <div class="col-md-7 col-xs-12">
@@ -659,7 +659,7 @@
 
 
 
-        <section class="container m-b-md">
+        <section class="container m-b-md vi-hide">
             <div class="row">
 
                 <div class="col-md-4 hidden-xs text-center">
@@ -778,7 +778,7 @@ align-items: center;
 
 
 
-        <div class="paralax-main  b-b b-t box-shadow b-light">
+        <div class="paralax-main  b-b b-t box-shadow b-light vi-hide">
             <div class="row h-full bg-paralax-opacity text-center text-white">
                 <div class="container">
                     <div class="row m-t-xl m-b-xl">
@@ -1035,7 +1035,7 @@ align-items: center;
                     </div>
 
 
-                    {{--
+
                     <div class="row">
                         <article class="col-md-4 padder-v">
                             <div class="panel panel-default box-shadow">
@@ -1108,7 +1108,6 @@ align-items: center;
                         </article>
 
                     </div>
---}}
 
 
 
@@ -1121,7 +1120,7 @@ align-items: center;
 
 
 
-        <section class="container m-b-md m-t-md">
+        <section class="container m-b-md m-t-md vi-hide">
             <div class="row">
 
 
@@ -1196,8 +1195,8 @@ align-items: center;
 
 
 
-{{--
-        <section class="container-fluid bg-white b-t box-shadow-lg">
+
+        <section class="container-fluid bg-white b-t box-shadow-lg vi-hide">
             <div class="container padder-v">
                 <div class="col-md-12">
 
@@ -1258,12 +1257,12 @@ align-items: center;
             </div>
 
         </section>
---}}
 
 
 
 
-    <section class="container-fluid bg-white b-t box-shadow-lg">
+
+    <section class="container-fluid bg-white b-t box-shadow-lg vi-hide">
         <div class="container padder-v">
             <div class="col-md-12">
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="visually-impaired">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,6 @@
     <link href="/dist/css/orchid.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-
     <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
 </head>
 
@@ -488,8 +487,8 @@ align-items: center;
 
 
 
-
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_9M5O7t88YovZa2mePQ9VX4f79c86cqg"
+        type="text/javascript"></script>
 <script src="/dist/js/orchid.js"></script>
 </body>
 </html>
