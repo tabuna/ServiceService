@@ -3,34 +3,52 @@
 @section('content')
 
 
-    <div class="container">
+
+    <section class="container-fluid">
+        <div class="row bg-white">
+
+            <nav class="bg-danger box-shadow-lg">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="icon-location-pin"></i> Главная</a></li>
+                        <li class="active">Счёт</li>
+                    </ol>
+                </div>
+            </nav>
+
+
+        </div>
+    </section>
+
+
+
+    <div class="container bg-white m-b-md">
         <div class="row">
 
     <div class="bg-light lter b-b wrapper-md hidden-print">
-    <a href="" class="btn btn-sm btn-info pull-right" onclick="window.print();">Print</a>
-    <h1 class="m-n font-thin h3">Invoice</h1>
+    <a href="" class="btn btn-sm btn-info pull-right" onclick="window.print();">Распечатать</a>
+    <h1 class="m-n font-thin h3">Счёт</h1>
 </div>
 
 
 <div class="wrapper-md">
     <div>
-        <i class="fa fa-apple fa fa-3x"></i>
+        <img src="http://10.0.0.26:8000/img/tour/logo.png">
         <div class="row">
             <div class="col-xs-6">
-                <h4>Apple Inc.</h4>
-                <p><a href="http://www.apple.com">www.apple.com</a></p>
-                <p>1 Infinite Loop <br>
-                    95014 Cuperino, CA<br>
-                    United States
+                <h4>ОКУ «Центр кластерного развития туризма Липецкой области»</h4>
+                <p><a href="#">www.liptur.com</a></p>
+                <p>398050 г. Липецк,<br>
+                    пл. Плеханова, 1
                 </p>
                 <p>
-                    Telephone:  800-692-7753<br>
-                    Fax:  800-692-7753
+                    Телефон:  800-692-7753<br>
+                    Факс:  800-692-7753
                 </p>
             </div>
             <div class="col-xs-6 text-right">
                 <p class="h4">#9048392</p>
-                <h5>29th Mar 2013</h5>
+                <h5>29 Марта 2016</h5>
             </div>
         </div>
         <div class="well m-t bg-light lt">

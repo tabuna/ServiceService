@@ -5,263 +5,161 @@
 @section('content')
 
 
-    <div class="container">
-
-            <div class="row">
-                <div class="col-sm-3 panel box-shadow">
-
-                    <aside id="aside" class="app-aside hidden-xs">
-                        <div class="aside-wrap">
-                            <div class="navi-wrap">
-
-                                <!-- nav -->
-                                <nav class="navi clearfix  wrapper-sm">
-                                    <ul class="nav">
-
-                                        <li class="hidden-folded text-danger padder m-t m-b-sm text-xs">
-                                            <span class="text-danger">EXPLODE</span>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-desktop icon"></i>
-                                                <span>Wath to Wath</span>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-tag icon"></i>
-                                                <span>Recomended</span>
-                                            </a>
-                                        </li>
+    <section class="container-fluid">
+        <div class="row bg-white">
 
 
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-history icon"></i>
-                                                <span>History</span>
-                                            </a>
-                                        </li>
+            <div style="background:url(/img/tour/news/big-top.jpg) center center; background-size:cover">
+                <div class="wrapper-xl bg-black-opacity bg-dark">
+                    <div class="row m-t">
 
 
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-wallet icon"></i>
-                                                <span>Subscriptions</span>
-                                                <b class="label bg-danger pull-right">2</b>
-                                            </a>
-                                        </li>
+                        <div class="container m-t-md top-desc-block">
 
 
-                                        <li class="hidden-folded text-danger padder m-t m-b-sm text-xs">
-                                            <span class="text-danger">PLAYLISTITS</span>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-heart icon"></i>
-                                                <span>Like Videos</span>
-                                            </a>
-                                        </li>
+                            <div class="col-md-6  text-white" data-mh="event-top-block">
 
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-star icon"></i>
-                                                <span>Favorites</span>
-                                            </a>
-                                        </li>
+                                <h1 class="h3 padder-v">Вниманию российских туристов на Гаити!</h1>
 
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-clock icon"></i>
-                                                <span>Wath Later</span>
-                                            </a>
-                                        </li>
-
-
-
-                                        <li class="hidden-folded text-danger padder m-t m-b-sm text-xs">
-                                            <span class="text-danger">SUBCRIPION</span>
-                                        </li>
-
-
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="thumb-xxs m-r-xs">
-                                                    <img src="/img/a3.jpg" alt="Crystal Guerrero" class="img-full rounded  thumb-wrapper">
-                                                </div>
-                                                <span>Markest Casual</span>
-                                            </a>
-                                        </li>
-
-
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="thumb-xxs m-r-xs">
-                                                    <img src="/img/a4.jpg" alt="Crystal Guerrero" class="img-full rounded  thumb-wrapper">
-                                                </div>
-                                                <span>Markest Casual</span>
-                                            </a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="thumb-xxs m-r-xs">
-                                                    <img src="/img/a5.jpg" alt="Crystal Guerrero" class="img-full rounded  thumb-wrapper">
-                                                </div>
-                                                <span>Markest Casual</span>
-                                            </a>
-                                        </li>
-
-
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="thumb-xxs m-r-xs">
-                                                    <img src="/img/a6.jpg" alt="Crystal Guerrero" class="img-full rounded  thumb-wrapper">
-                                                </div>
-                                                <span>Markest Casual</span>
-                                            </a>
-                                        </li>
-
-
-                                    </ul>
-
-                                </nav>
-                                <!-- nav -->
+                                <small class="text-justify">
+                                    По сообщению Министерства иностранных дел Российской Федерации через официальный
+                                    твиттер ведомства, на востоке Гаити зафиксирована вспышка холеры, жертвами которой
+                                    стали 13 человек.
+                                </small>
 
                             </div>
-                        </div>
-                    </aside>
 
 
+                        </div>
 
-                    <h5 class="font-bold">Categories</h5>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <a href="">
-                                <span class="badge pull-right">15</span>
-                                Photograph
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="">
-                                <span class="badge pull-right">30</span>
-                                Life style
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="">
-                                <span class="badge pull-right">9</span>
-                                Food
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="">
-                                <span class="badge pull-right">4</span>
-                                Travel world
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="tags m-b-lg l-h-2x">
-                        <a href="" class="label bg-primary">Bootstrap</a> <a href="" class="label bg-primary">Application</a> <a href="" class="label bg-primary">Apple</a> <a href="" class="label bg-primary">Less</a> <a href="" class="label bg-primary">Theme</a> <a href="" class="label bg-primary">Wordpress</a>
-                    </div>
-                    <h5 class="font-bold">Recent Posts</h5>
-                    <div>
-                        <div>
-                            <a class="pull-left thumb thumb-wrapper m-r">
-                                <img src="img/b0.jpg">
-                            </a>
-                            <div class="clear">
-                                <a href="" class="font-semibold text-ellipsis">Bootstrap 3: What you need to know</a>
-                                <div class="text-xs block m-t-xs"><a href="">Travel</a> 2 minutes ago</div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div>
-                            <a class="pull-left thumb thumb-wrapper m-r">
-                                <img src="img/b1.jpg">
-                            </a>
-                            <div class="clear">
-                                <a href="" class="font-semibold text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                                <div class="text-xs block m-t-xs"><a href="">Design</a> 2 hours ago</div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div>
-                            <a class="pull-left thumb thumb-wrapper m-r">
-                                <img src="img/b2.jpg">
-                            </a>
-                            <div class="clear">
-                                <a href="" class="font-semibold text-ellipsis">Sed diam nonummy nibh euismod tincidunt ut laoreet</a>
-                                <div class="text-xs block m-t-xs"><a href="">MFC</a> 1 week ago</div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-                <div class="col-sm-9 b-l">
+            </div>
+
+
+            <!--<img src="/img/tour/event/1.png" class="img-full"> -->
+
+
+            <nav class="bg-danger box-shadow-lg">
+                <div class="container">
                     <ol class="breadcrumb">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Онас</a></li>
-                        <li class="active">Управляющая компания</li>
+                        <li><a href="#"><i class="icon-location-pin"></i> Главная</a></li>
+                        <li class="active">Вниманию российских туристов на Гаити!</li>
                     </ol>
-                    <div class="wrapper">
-                    <div class="blog-post">
-                        <div class="panel">
-                            <div>
-                                <img src="img/c0.jpg" class="img-full">
-                            </div>
-                            <div class="wrapper-lg">
-                                <h2 class="m-t-none"><a href="">7 things you need to know about the flat design</a></h2>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
-                                        <br><br>
-                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                                </div>
-                                <div class="line line-lg b-b b-light"></div>
-                                <div class="text-muted">
-                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
-                                    <i class="fa fa-clock-o text-muted"></i> Feb 20, 2013
-                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 2 comments</a>
-                                </div>
-                            </div>
+                </div>
+            </nav>
+
+
+        </div>
+    </section>
+
+
+
+
+    <div class="container">
+
+        <div class="row m-t-md m-b-md">
+            <div class="col-sm-4">
+
+
+                <div class="panel wrapper-xl b box-shadow-lg padder-lg" data-mh="main-info-block"
+                     style="width: 100%; display: flex; align-items: center; justify-content: center; height: 441px; background: rgb(198, 198, 198);">
+                    <p style="
+    font-size: 16pt;
+    text-transform: uppercase;
+">Реклама <br>375x460</p>
+
+                </div>
+
+
+
+                <article class="panel wrapper-xl b box-shadow-lg padder-lg">
+                    <p class="h3 font-thin  m-b-lg">Новостная <span class="text-danger">Рассылка</span></p>
+                    <form role="form" data-mh="main-last-block">
+
+                        <div class="form-group form-group-default m-t-md">
+                            <label class="text-sm text-left">Адрес электронной почты</label>
+                            <input type="email" placeholder="Введите Email" class="form-control">
                         </div>
-                        <div class="panel">
-                            <div class="wrapper-lg">
-                                <h2 class="m-t-none"><a href="">Bootstrap 3: What you need to know</a></h2>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat.
-                                    </p>
-                                    <h3>Html5 and CSS3</h3>
-                                    <p>
-                                        Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                                </div>
-                                <div class="line line-lg b-b b-light"></div>
-                                <div class="text-muted">
-                                    <i class="fa fa-user text-muted"></i> by <a href="" class="m-r-sm">Admin</a>
-                                    <i class="fa fa-clock-o text-muted"></i> Feb 15, 2013
-                                    <a href="" class="m-l-sm"><i class="fa fa-comment-o text-muted"></i> 4 comments</a>
-                                </div>
+
+                        <span class="m-t-md help-block m-b-none text-xs"> *Ваши личные данные не попадут в руки третьих лиц.</span>
+
+                    </form>
+
+                    <p class="text-center"><button type="submit" class="btn btn-outline btn-danger btn-rounded">Подписаться</button></p>
+
+                </article>
+
+
+
+
+
+
+
+            </div>
+            <div class="col-sm-8">
+                <div class="blog-post">
+                    <div class="panel panel-default">
+                        <div class="wrapper-lg">
+                            <main>
+                                <p>По сообщению Министерства иностранных дел Российской Федерации через официальный
+                                    твиттер ведомства, на востоке Гаити зафиксирована вспышка холеры, жертвами которой
+                                    стали 13 человек.</p>
+
+                                <p>Ростуризм настоятельно призывает туроператоров, реализующих туры на Гаити,
+                                    информировать туристов об обстановке в стране, существующих рисках и необходимых
+                                    мерах предосторожности, а также рекомендует российским туристам, пребывающим на
+                                    территории этой страны, соблюдать правила гигиены.</p>
+
+                                <p>По данным Всемирной Организации Здравоохранения (ВОЗ), для предотвращения
+                                    инфицирования необходимо соблюдать следующие правила:</p>
+
+
+                                <ul class="list-group">
+                                    <li class="list-group-item" style="text-align: justify;">пить только кипяченую или
+                                        дезинфицированную хлором, йодом или другими соответствующими средствами питьевую
+                                        воду. Средства для дезинфекции воды, как правило, продаются в аптеках. Такие
+                                        напитки, как горячий чай или кофе, вино, пиво, газированная вода или
+                                        безалкогольные напитки, а также фруктовые соки в бутылках или пакетах, обычно
+                                        безопасны для питья
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">не употреблять лёд, если
+                                        нет уверенности, что он сделан из безопасной воды
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">употреблять в пищу горячие
+                                        продукты, прошедшие тщательную тепловую обработку. Приготовленные пищевые
+                                        продукты, оставленные в течение нескольких часов при комнатной температуре, без
+                                        дополнительного разогревания могут стать источником инфекции
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">не употреблять в пищу сырые
+                                        морепродукты и другие продукты в сыром виде. Исключение составляют фрукты и
+                                        овощи, собственноручно очищенные (от кожицы, корки и т.п.)
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">прежде, чем пить
+                                        непастеризованное молоко, прокипятить его
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">мороженое из непроверенных
+                                        источников часто бывает зараженным и может привести к заболеванию
+                                    </li>
+                                    <li class="list-group-item" style="text-align: justify;">убеждаться в том, что
+                                        пищевые продукты, купленные у уличных торговцев, проходят тщательную тепловую
+                                        обработку в присутствии покупателя и не содержат каких-либо составных частей, не
+                                        прошедших такую обработку.
+                                    </li>
+                                </ul>
+
+
+                            </main>
+                            <div class="text-muted">
+                                <i class="fa fa-clock-o text-muted"></i> Февраля 20, 2013
                             </div>
                         </div>
                     </div>
-                    <div class="text-center m-t-lg m-b-lg">
-                        <ul class="pagination pagination-md">
-                            <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
-                            <li class="active"><a href="">1</a></li>
-                            <li><a href="">2</a></li>
-                            <li><a href="">3</a></li>
-                            <li><a href="">4</a></li>
-                            <li><a href="">5</a></li>
-                            <li><a href=""><i class="fa fa-chevron-right"></i></a></li>
-                        </ul>
-                    </div>
-                        </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 @endsection
