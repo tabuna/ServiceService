@@ -23,12 +23,43 @@ if (document.getElementById('map-event')) {
     });
 }
 
+
+if (document.getElementById('map-contact')) {
+    var map;
+    $(document).ready(function () {
+        map = new GMaps({
+            el: '#map-contact',
+            lat: 52.611772,
+            lng: 39.5969189,
+            zoomControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            height: '300px',
+        });
+        map.addMarker({
+            lat: 52.611772,
+            lng: 39.5969189,
+            title: 'Карамельный Штрудель в Филатовке',
+            infoWindow: {
+                content: '<p>Тут описание?</p>'
+            }
+        });
+    });
+}
+
+
+
 $(document).ready(function() {
     $('.maps').click(function () {
-        $('.maps iframe').css("pointer-events", "auto");
+        $('.maps .gm-style').css("pointer-events", "auto");
     });
 
     $( ".maps" ).mouseleave(function() {
-        $('.maps iframe').css("pointer-events", "none");
+        $('.maps .gm-style').css("pointer-events", "none");
     });
 });
+
+
+

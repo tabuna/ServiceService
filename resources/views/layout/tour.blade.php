@@ -67,6 +67,12 @@ align-items: center;
                                             <ul class="list-unstyled l-h-2x">
                                                 <li><a href="/tour/login"><i class="fa fa-angle-right text-muted m-r-sm"></i>Авторизация</a></li>
                                                 <li><a href="/tour/edit"><i class="fa fa-angle-right text-muted m-r-sm"></i>Профиль</a></li>
+                                                <li><a href="/tour/contact"><i class="fa fa-angle-right text-muted m-r-sm"></i>Контакты</a></li>
+
+
+
+
+
                                             </ul>
                                         </div>
                                         <div class="col-xs-6">
@@ -204,25 +210,22 @@ align-items: center;
                     </div>
 
 
+
+
+
                     <div class="col-md-3 vi-hide">
                         <p>
-                            <a onclick="popupCenter('http://vk.com/share.php?url={{Request::url()}}', '',600,400);"
-                               href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-vk"></i></a>
+                            <a href="https://vk.com/lipsobtur" target="_blank" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-vk"></i></a>
 
-                            <a onclick="popupCenter('http://www.ok.ru/dk?st.cmd=addShare&st.s=1&st._surl={{Request::url()}}', '',600,400);"
-                               href="javascript:void(0);"class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-odnoklassniki"></i></a>
+                            <a href="http://ok.ru/group/57780474019888" target="_blank" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-odnoklassniki"></i></a>
 
-                            <a  onclick="popupCenter('http://www.facebook.com/sharer.php?u={{Request::url()}}', '',600,400);"
-                                href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-facebook"></i></a>
+                            <a  href="#" target="_blank" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-facebook"></i></a>
 
-                            <a onclick="popupCenter('https://plus.google.com/share?url={{Request::url()}}', '',600,400);"
-                               href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" target="_blank" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-google-plus"></i></a>
 
-                            <a onclick="popupCenter('https://twitter.com/share?url={{Request::url()}}', '',600,400);"
-                               href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/lipsobtur" target="_blank" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-twitter"></i></a>
 
-                            <a onclick="popupCenter('https://twitter.com/share?url={{Request::url()}}', '',600,400);"
-                               href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey">
+                            <a href="#" target="_blank" class="btn btn-icon btn-rounded btn-grey">
                             <i class="fa fa-rss" aria-hidden="true"></i>
                             </a>
 

@@ -16728,7 +16728,7 @@ fieldset[disabled] .form-control-grey {
 .visually-impaired body div,
 .visually-impaired body aside,
 .visually-impaired body section {
-  background-image: none;
+  background-image: none!important;
 }
 .visually-impaired body h1,
 .visually-impaired body h2,
@@ -18097,6 +18097,10 @@ fieldset[disabled] .form-control-grey {
 }
 .error .glow-bar {
   box-shadow: -3px 0 15px 1px rgba(244, 67, 54, 0.4);
+}
+.maps a,
+.maps span {
+  display: none!important;
 }
 @media (min-width: 767px) {
   .navbar-scroll {

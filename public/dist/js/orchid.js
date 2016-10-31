@@ -12111,15 +12111,47 @@ if (document.getElementById('map-event')) {
     });
 }
 
+
+if (document.getElementById('map-contact')) {
+    var map;
+    $(document).ready(function () {
+        map = new GMaps({
+            el: '#map-contact',
+            lat: 52.611772,
+            lng: 39.5969189,
+            zoomControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            height: '300px',
+        });
+        map.addMarker({
+            lat: 52.611772,
+            lng: 39.5969189,
+            title: 'Карамельный Штрудель в Филатовке',
+            infoWindow: {
+                content: '<p>Тут описание?</p>'
+            }
+        });
+    });
+}
+
+
+
 $(document).ready(function() {
     $('.maps').click(function () {
-        $('.maps iframe').css("pointer-events", "auto");
+        $('.maps .gm-style').css("pointer-events", "auto");
     });
 
     $( ".maps" ).mouseleave(function() {
-        $('.maps iframe').css("pointer-events", "none");
+        $('.maps .gm-style').css("pointer-events", "none");
     });
 });
+
+
+
+
 if ($(".navbar-scroll")[0]) {
 //jQuery to collapse the navbar on scroll
     $(window).scroll(function () {
@@ -12257,33 +12289,6 @@ $(function () {
     });
 
 
-});
-new Vue({
-    el: '#loading-bar',
-    ready: function () {
-        var self = this;
-        self.progress = 10;
-        for (var i = 0; i < 30; i++) {
-            if (i > 20 && i < 29) {
-                setTimeout(function () {
-                    self.progress += 5;
-                }, 50 * i);
-            } else {
-                setTimeout(function () {
-                    self.progress++;
-                }, 10 * i);
-            }
-        }
-        setTimeout(function () {
-            self.progress = 100;
-        }, 1500);
-    },
-    data: {
-        progress: 0,
-        status: "doesn't start yet",
-        error: false,
-        direction: false,
-    }
 });
 if (document.querySelector('#static-container')) {
     new Vue({
