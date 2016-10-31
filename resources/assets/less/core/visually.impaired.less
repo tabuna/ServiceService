@@ -1,10 +1,7 @@
-.visually-impaired{
-
-
-
+.visually-impaired {
 
   @brand-primary: #1c2b36;
-  @brand-complete:#1c2b36;
+  @brand-complete: #1c2b36;
   @brand-info: #1c2b36;
   @brand-success: #1c2b36;
   @brand-warning: #1c2b36;
@@ -15,13 +12,11 @@
   @brand-white: #fff;
   @brand-black: #1c2b36;
 
-
   //Mixing Color varriable for creating both light and dark colors
   @mix-percentage-dark: 100%%;
   @mix-percentage-darker: 100%;
   @mix-percentage-light: 100%;
   @mix-percentage-lighter: 100%;
-
 
   //Lighter colors
   @brand-success-light: mix(@brand-success, @brand-white, @mix-percentage-light);
@@ -61,16 +56,6 @@
   @brand-info-dark: mix(@brand-info, @brand-black, @mix-percentage-dark);
   @brand-info-darker: mix(@brand-info, @brand-black, @mix-percentage-darker);
 
-
-
-
-
-
-
-
-
-
-
   @body-bg: lighten(@brand-light, 1%);
   @text-color: @brand-dark;
   @text-muted: lighten(@text-color, 25%);
@@ -80,10 +65,10 @@
   @font-family-base: @font-family-sans-serif;
 
   @font-size-base: 30px;
-  @font-size-lg: 30px;
+  @font-size-lg: 32px;
   @font-size-md: 30px;
-  @font-size-sm: 30px;
-  @font-size-xs: 30px;
+  @font-size-sm: 28px;
+  @font-size-xs: 26px;
 
   @link-color: darken(@text-color, 15%);
   @link-hover-color: darken(@text-color, 30%);
@@ -127,7 +112,6 @@
   @table-border-color: lighten(@border-color, 4%);
   @table-striped-color: lighten(@brand-light, 4.5%);
 
-
   @arrow-width: 8px;
   @arrow-color: #fff;
   @arrow-outer-width: (@arrow-width + 1);
@@ -155,48 +139,83 @@
 
   @off-screen-width: 75%;
 
-  @menu-bezier:.05, .74, .27, .99;
-  @brand-menu-light :#fafafa;
-
+  @menu-bezier: .05, .74, .27, .99;
+  @brand-menu-light: #fafafa;
 
   //Forms
   @form-group-height: 54px;
   @form-control-border-color: fade(@brand-black, 7%);
 
-
-
-
-
   background: @brand-white;
-  body{
+  body {
     font-size: @font-size-base;
 
-    h1,h2,h3,h4,h5,h6,.h1,h2,h3,h4,h5,h6{
-        @font-size-base
+    div,aside,section{
+      background-image: none!important;
+    }
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+      font-size: @font-size-base
+    }
+
+    .text-sm{
+      font-size: @font-size-sm;
+    }
+    .text-md{
+      font-size: @font-size-md;
+    }
+
+    .dropdown-menu{
+      font-size: @font-size-xs;
+    }
+
+    small, .small{
+      font-size: @font-size-xs;
+    }
+
+    .text-xs{
+      font-size: @font-size-xs;
+    }
+    .text-lg{
+      font-size: @font-size-lg;
     }
 
 
-    .container{
+    .container {
       width: 100%;
     }
 
-
-
-
-    img{
-      display: none!important;
+    .vi-hide {
+      display: none !important;
     }
+
+    img {
+      display: none !important;
+    }
+
+
+    @column-name: vi-col; // Префикс класса сетки
+    @column-count: 12;  // Количество классов
+
+    .generate-column(@i: 1) when (@i =< @column-count) {
+      .@{column-name}-@{i} {
+        width: @i * (100% / @column-count);
+      }
+
+      .generate-column(@i + 1);
+    }
+
+    .generate-column();
+
+
+
+    .btn-more{
+      .btn{
+        display: none;
+      }
+    }
+
   }
-
-  .vi-hide{
-    display: none!important;
-  }
-
-
-
-
-
-
 
   .bg-gd {
     #gradient > .vertical(rgba(40, 50, 60, 0), rgba(40, 50, 60, 0.075), 0, 100%);
@@ -306,10 +325,4 @@
     color: @text-muted;
   }
 
-
-
-
-
-  
-  
 }

@@ -272,14 +272,14 @@
 
 .btn-grey {
   opacity: 0.8;
-  .button-variant(#fff, @brand-light, @brand-light);
+  .button-variant(@brand-dark, @brand-light, @brand-light);
   &:hover {
-    transition: 0.3s;
+    transition: 300ms;
     opacity: 1;
     .button-variant(#fff, @brand-dark, @brand-dark);
   }
   &:not(:hover) {
-    transition: 0.5s;
+    transition: 500ms;
   }
 }
 

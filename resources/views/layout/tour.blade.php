@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="visually-impaired">
+<html id="html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,23 +15,26 @@
 <body>
 
 
-
-
-
-
-<div class="adb" style="
+<div class="alert alert-dismissible fade in adb vi-hide" role="alert" style="
 height: 100px;
 width: 100%;
 background: #c6c6c6;
 display: flex;
 align-items: center;
   justify-content: center;
+  margin: 0;
 ">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+    </button>
+
     <p style="
     font-size: 16pt;
     text-transform: uppercase;
 ">Реклама 1920x100</p>
+
 </div>
+
+
 
 
 
@@ -41,7 +44,7 @@ align-items: center;
                 <button class="btn btn-link visible-xs pull-right m-r" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a href="#" class="navbar-brand m-r-lg navbar-brand-centered">
+                <a href="/" class="navbar-brand m-r-lg navbar-brand-centered">
                     <img src="/img/tour/logo.png">
                 </a>
             </div>
@@ -58,17 +61,12 @@ align-items: center;
                         <div class="dropdown-menu wrapper w-full bg-white">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <div class="m-l-xs m-t-xs m-b-xs font-bold">Достопримечательности</div>
+                                    <div class="m-l-xs m-t-xs m-b-xs font-bold">Сделанные</div>
                                     <div class="row">
                                         <div class="col-xs-6">
                                             <ul class="list-unstyled l-h-2x">
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Мосты</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Парки</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Памятники</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Храмы и Соборы</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Интересные места</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Площади</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Улицы</a></li>
+                                                <li><a href="/tour/login"><i class="fa fa-angle-right text-muted m-r-sm"></i>Авторизация</a></li>
+                                                <li><a href="/tour/edit"><i class="fa fa-angle-right text-muted m-r-sm"></i>Профиль</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-xs-6">
@@ -185,22 +183,28 @@ align-items: center;
         <div class="container">
             <div class="container-fluid">
                 <div class="row padder-v">
-                    <div class="col-md-3 v-center">
-                        <i class="icon-phone fa-2x"></i>
-                        <a class="wrapper-sm">Телефон: (4742) 47-23-23</a>
+                    <div class="col-md-3 vi-col-4">
+                        <a class="wrapper-sm v-center">
+                            <i class="icon-phone fa-2x m-r-xs"></i>
+                            Телефон: (4742) 47-23-23
+                        </a>
                     </div>
-                    <div class="col-md-3 v-center hidden-xs">
-                        <i class="icon-info fa-2x"></i>
-                        <a class="wrapper-sm" role="button" data-toggle="collapse" href="#collapse-recommended-links"
-                           aria-expanded="false" aria-controls="collapse-recommended-links">Полезные ссылки</a>
+                    <div class="col-md-3 hidden-xs vi-hide">
+                        <a class="wrapper-sm v-center" role="button" data-toggle="collapse" href="#collapse-recommended-links"
+                           aria-expanded="false" aria-controls="collapse-recommended-links">
+                            <i class="icon-info fa-2x  m-r-xs"></i>
+                            Полезные ссылки
+                        </a>
                     </div>
-                    <div class="col-md-3 v-center">
-                        <i class="icon-eye fa-2x"></i>
-                        <a class="wrapper-sm">Версия для слабовидящих</a>
+                    <div class="col-md-3 vi-col-4">
+                        <a class="wrapper-sm click-visually v-center" data-toggle="visually-impaired" data-target="#html">
+                            <i class="icon-eye fa-2x m-r-xs"></i>
+                            Версия для слабовидящих
+                        </a>
                     </div>
 
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 vi-hide">
                         <p>
                             <a onclick="popupCenter('http://vk.com/share.php?url={{Request::url()}}', '',600,400);"
                                href="javascript:void(0);" class="btn btn-icon btn-rounded btn-grey"><i class="fa fa-vk"></i></a>
@@ -294,7 +298,7 @@ align-items: center;
         </div>
     </div>
 
-    <div class="wrapper b-t bg-gray hidden-xs">
+    <div class="wrapper b-t bg-gray hidden-xs vi-hide">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-3">

@@ -5,95 +5,130 @@
 
 
 
-    <div class="container m-t-xxl">
 
 
-        <div class="panel b box-shadow wrapper-lg">
+    <div class="container-fluid">
+        <div class="row paralax-auth v-center  box-shadow">
 
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Login</div>
-                        <div class="panel-body">
-                            <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-                                {{ csrf_field() }}
 
-                                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                                    <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+            <div class="container padder-v">
 
-                                    <div class="col-md-6">
-                                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
 
-                                        @if ($errors->has('email'))
-                                            <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                        @endif
-                                    </div>
+                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-7">
+
+                    <div class="panel wrapper-xl b box-shadow-lg  padder-lg" data-mh="auth">
+
+                        <p class="h4 font-thin padder-v text-center">Туристско-информационные
+                            центры Липецкой области</p>
+
+
+                        <form action="/auth/login" method="post" name="form">
+                            <div class="m-t-md m-b-md">
+                                <div class="form-group form-group-default m-t-md">
+                                    <label class="text-sm text-left">Адрес электронной почты</label>
+                                    <input type="email" required placeholder="Введите Email" class="form-control">
                                 </div>
+                            </div>
 
-                                <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                                    <label for="password" class="col-md-4 control-label">Password</label>
-
-                                    <div class="col-md-6">
-                                        <input id="password" type="password" class="form-control" name="password">
-
-                                        @if ($errors->has('password'))
-                                            <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                        @endif
-                                    </div>
+                            <div class="m-t-md m-b-md">
+                                <div class="form-group form-group-default m-t-md">
+                                    <label class="text-sm text-left">Пароль</label>
+                                    <input type="password" placeholder="Введите пароль" required class="form-control">
                                 </div>
+                            </div>
 
-                                <div class="form-group">
-                                    <div class="col-md-6 col-md-offset-4">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" name="remember"> Remember Me
-                                            </label>
-                                        </div>
-                                    </div>
+
+                            <div class="btn-group btn-group-justified m-b-md m-t-md">
+                                <a href="" class="btn btn-default"><i class="fa fa-vk"></i> Вконтакте</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-facebook-official"></i> Facebook</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-odnoklassniki"></i> Однокласники</a>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label class="i-checks">
+                                        <input type="checkbox" checked=""><i></i> Запомнить меня
+                                    </label>
                                 </div>
+                            </div>
 
-                                <div class="form-group">
-                                    <div class="col-md-6 col-md-offset-4">
-                                        <button type="submit" class="btn btn-primary">
-                                            <i class="fa fa-btn fa-sign-in"></i> Login
-                                        </button>
 
-                                        <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
-                                    </div>
+
+                            {!! csrf_field() !!}
+
+
+                            <div class="row">
+                                <div class="col-md-6 text-left">
+                                    <p class="m-t m-b">
+                                        <a class="text-muted" href="#lostpassword">Забыли пароль?</a>
+                                    </p>
+
+
+
                                 </div>
-                            </form>
+                                <div class="col-md-6 text-right">
+                                    <button type="submit" class="btn  btn-outline btn-danger btn-rounded">Войти на
+                                        сайт
+                                    </button>
+                                </div>
+                            </div>
+
+
+
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-5">
+
+                    <div class="panel wrapper-xl b box-shadow-lg  padder-lg" data-mh="auth">
+
+
+                        <i class="icon-info text-danger icon-title"></i>
+                        <p class="h4 font-thin padder-v text-center">Зарегистрируйся сейчас бесплатно</p>
+
+                        <div class="padder">
+                            <ul class="list-unstyled">
+                                <li class="m-xs"><span class="fa fa-check text-success"></span> Смотри историю посещений
+                                </li>
+                                <li class="m-xs"><span class="fa fa-check text-success"></span> Узнавай результаты
+                                    анализов
+                                </li>
+                                <li class="m-xs"><span class="fa fa-check text-success"></span> Сохраняй свои записи
+                                </li>
+                                <li class="m-xs"><span class="fa fa-check text-success"></span> Получай новости</li>
+                                <li class="m-xs"><span class="fa fa-check text-success"></span> Обращаяся за вопросами
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="well well-primary">
-                        <p class="lead">Sign Up now for Free
-                        </p>
-                        <ul class="list-unstyled" style="line-height: 2">
-                            <li><span class="fa fa-check text-success"></span> Create orders</li>
-                            <li><span class="fa fa-check text-success"></span> Pay for services</li>
-                            <li><span class="fa fa-check text-success"></span> Check order status</li>
-                            <li><span class="fa fa-check text-success"></span> Send questions</li>
-                            <li><span class="fa fa-check text-success"></span> Leave reviews</li>
-                        </ul>
-                        <p class="text-center"><a href="/auth/register/" class="btn btn-info">Sign Up</a></p>
+                        <button type="submit" class="btn btn-default btn-void-primary btn-block">Регистрация
+                        </button>
 
-                        <p class="text-center"><a target="_blank"
-                                                  href=" /page/public-offer-on-provision-of-translation-and-other-services ">Terms
-                                of use</a>
-                        </p>
                     </div>
+
+
                 </div>
+                    </div>
 
 
             </div>
-        </div>
 
+
+        </div>
     </div>
-    </div>
+
+
+
+
+
+
+
 @endsection

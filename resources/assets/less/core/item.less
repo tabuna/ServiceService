@@ -1,5 +1,6 @@
 .item{
   position: relative;
+  transition: 340ms;
   .top{
     position: absolute;
     top: 0;
@@ -14,8 +15,17 @@
   }
   .center{
     position: absolute;
-    top:50%;
+    /*top:50%;*/
     width: 100%;
+    height: 100%;
+
+    a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
   }
 
   .opacity {
@@ -24,7 +34,8 @@
 
 }
 .item-overlay{
-  display: none;
+  //display: none;
+  opacity: 0;
   position: absolute;
   top: 0;
   right: 0;
@@ -34,7 +45,8 @@
   z-index: 10;
   &.active,
   .item:hover & {
-    display: block;
+    //display: block;
+    opacity: 1;
     transition: 500ms;
   }
   .item:not(:hover) & {

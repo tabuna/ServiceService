@@ -814,7 +814,8 @@ align-items: center;
 
                     </div>
 
-                    <div class="row">
+                    {{--
+                    <div class="row vi-hide">
                         <article class="col-md-3 padder-v hover-zoom" data-mh="main-news">
                             <figure class="item">
                                 <div class="pos-rlt bg-black">
@@ -1033,12 +1034,12 @@ align-items: center;
                             </figure>
                         </article>
                     </div>
-
+--}}
 
 
                     <div class="row">
                         <article class="col-md-4 padder-v">
-                            <div class="panel panel-default box-shadow">
+                            <div class="panel panel-default box-shadow-lg">
                                 <div data-mh="main-news-img">
                                     <a href="#"><img src="img/tour/news/1.png" class="img-full"></a>
                                 </div>
@@ -1060,7 +1061,7 @@ align-items: center;
                         </article>
 
                         <article class="col-md-4 padder-v">
-                            <div class="panel panel-default box-shadow">
+                            <div class="panel panel-default box-shadow-lg">
                                 <div data-mh="main-news-img">
                                     <a href="#"><img src="img/tour/news/4.png" class="img-full"></a>
                                 </div>
@@ -1084,7 +1085,7 @@ align-items: center;
                         </article>
 
                         <article class="col-md-4 padder-v">
-                            <div class="panel panel-default box-shadow">
+                            <div class="panel panel-default box-shadow-lg">
                                 <div data-mh="main-news-img">
                                     <a href="#"><img src="img/tour/news/3.png" class="img-full"></a>
                                 </div>
@@ -1195,7 +1196,7 @@ align-items: center;
 
 
 
-
+{{--
         <section class="container-fluid bg-white b-t box-shadow-lg vi-hide">
             <div class="container padder-v">
                 <div class="col-md-12">
@@ -1257,7 +1258,7 @@ align-items: center;
             </div>
 
         </section>
-
+--}}
 
 
 
