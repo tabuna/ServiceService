@@ -1,51 +1,68 @@
 @extends('layout.tour')
 
-
-
 @section('content')
 
 
-    <section class="container-fluid">
-        <div class="row bg-white">
+
+    <div class="container-fluid bg-white">
+        <div class="row box-shadow">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
 
 
-            <div style="background:url(/img/tour/news/big-top.jpg) center center; background-size:cover">
-                <div class="wrapper-xl bg-black-opacity bg-dark">
-                    <div class="row m-t">
-
-
-                        <div class="container m-t-md top-desc-block">
-
-
-                            <div class="col-md-6  text-white" data-mh="event-top-block">
-
-                                <h1 class="h3 padder-v">Вниманию российских туристов на Гаити!</h1>
-
-                                <small class="text-justify">
-                                    По сообщению Министерства иностранных дел Российской Федерации через официальный
-                                    твиттер ведомства, на востоке Гаити зафиксирована вспышка холеры, жертвами которой
-                                    стали 13 человек.
-                                </small>
-
-                            </div>
-
-
+                        <div class="page-header">
+                            <h1>Потребителям
+                                <small>подзаголовок</small>
+                            </h1>
                         </div>
 
 
+                        <p class="text-justify small">
+                            «ОАО «ОЭЗ ППТ «Липецк» осуществляет строительство и эксплуатацию распределительных сетей
+                            электроснабжения, теплоснабжения, газоснабжения, водоснабжения, водоотведения и
+                            телекоммуникации на территории ОЭЗ ППТ «Липецк».
+                        </p>
+
+
+                        <p class="text-justify small">
+                            В данном разделе вы найдёте информацию порядке присоединения/подключения к сетям ОАО «ОЭЗ
+                            ППТ «Липецк», а также информацию о деятельности по передаче электрической энергии, поставке
+                            тепловой энергии в горячей воде, поставке питьевой воды, транспортировке сточных вод,
+                            транспортировке природного газа и сопутствующих услугах.»
+                        </p>
+
+
                     </div>
+
+                    <div class="col-md-6">
+
+                        <div class="pageOption pull-right">
+                            <a href="#" class="option" data-inf="cinema">
+                                <img src="/img/main.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
 
 
-            <!--<img src="/img/tour/event/1.png" class="img-full"> -->
-
+        </div>
+    </div>
+    <section class="container-fluid">
+        <div class="row bg-white">
 
             <nav class="bg-danger box-shadow-lg">
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><a href="#"><i class="icon-location-pin"></i> Главная</a></li>
-                        <li class="active">Вниманию российских туристов на Гаити!</li>
+                        <li class="">Новости</li>
+                        <li class="active">Новость</li>
                     </ol>
                 </div>
             </nav>
@@ -53,7 +70,6 @@
 
         </div>
     </section>
-
 
 
 
@@ -162,4 +178,5 @@
     </div>
 
 
-@endsection
+
+@stop
