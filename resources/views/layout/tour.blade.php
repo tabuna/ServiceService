@@ -68,6 +68,7 @@ align-items: center;
                                                 <li><a href="/tour/login"><i class="fa fa-angle-right text-muted m-r-sm"></i>Авторизация</a></li>
                                                 <li><a href="/tour/edit"><i class="fa fa-angle-right text-muted m-r-sm"></i>Профиль</a></li>
                                                 <li><a href="/tour/contact"><i class="fa fa-angle-right text-muted m-r-sm"></i>Контакты</a></li>
+                                                <li><a href="/tour/event"><i class="fa fa-angle-right text-muted m-r-sm"></i>Событие</a></li>
 
 
 
