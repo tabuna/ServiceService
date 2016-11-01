@@ -50,10 +50,10 @@ align-items: center;
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/classic/about">О области</a></li>
-                    <li><a href="/classic/about">События</a></li>
-                    <li><a href="/classic/about">Инвесторам</a></li>
-                    <li><a href="/classic/about">Тиц</a></li>
+                    <li><a href="/tour/about">О области</a></li>
+                    <li><a href="/tour/about">События</a></li>
+                    <li><a href="/tour/invest">Инвесторам</a></li>
+                    <li><a href="/tour/about">Тиц</a></li>
                     <li class="dropdown pos-stc">
                         <a href="#" data-toggle="dropdown" class=" dropdown-toggle" aria-expanded="true">
                             <i class="icon-options" aria-hidden="true"></i>
@@ -70,6 +70,7 @@ align-items: center;
                                                 <li><a href="/tour/contact"><i class="fa fa-angle-right text-muted m-r-sm"></i>Контакты</a></li>
                                                 <li><a href="/tour/event"><i class="fa fa-angle-right text-muted m-r-sm"></i>Событие</a></li>
                                                 <li><a href="/tour/post"><i class="fa fa-angle-right text-muted m-r-sm"></i>Запись</a></li>
+                                                <li><a href="/tour/about"><i class="fa fa-angle-right text-muted m-r-sm"></i>О области</a></li>
 
 
 
@@ -78,13 +79,9 @@ align-items: center;
                                         </div>
                                         <div class="col-xs-6">
                                             <ul class="list-unstyled l-h-2x">
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Мосты</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Парки</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Памятники</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Храмы и Соборы</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Интересные места</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Площади</a></li>
-                                                <li><a href="#"><i class="fa fa-angle-right text-muted m-r-sm"></i>Улицы</a></li>
+                                                <li><a href="/tour/invest"><i class="fa fa-angle-right text-muted m-r-sm"></i>Инвестору</a></li>
+
+                                                <li><a href="/tour/404"><i class="fa fa-angle-right text-muted m-r-sm"></i>404 Ошибка</a></li>
                                             </ul>
                                         </div>
                                     </div>

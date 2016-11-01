@@ -781,7 +781,7 @@ align-items: center;
         <div class="paralax-main  b-b b-t box-shadow b-light vi-hide">
             <div class="row h-full bg-paralax-opacity text-center text-white">
                 <div class="container">
-                    <div class="row m-t-xl m-b-xl">
+                    <div class="row m-t-xxl m-b-xxl">
                         <div class="col-sm-6 text-white text-center">
                             <h4 class="m-b">Хотите хорошо отдохнуть?</h4>
                         </div>

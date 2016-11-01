@@ -27,7 +27,7 @@
     "flot.orderbars": "*",
     "flot.tooltip": "~0.8.4",
     "font-awesome": "4.*",
-    "jquery": "2.*",
+    "jquery": "3.*",
     "jquery-ui": "1.11.*",
     "jquery.easy-pie-chart": "~2.1.6",
     "moment": "~2.*",

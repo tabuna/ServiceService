@@ -30,6 +30,7 @@ elixir(function(mix) {
         './resources/assets/vendor/owl.carousel/dist/owl.carousel.min.js',
         "./resources/assets/vendor/slider-pro/dist/js/jquery.sliderPro.min.js",
         "./resources/assets/vendor/gmaps/gmaps.min.js",
+        "./resources/assets/vendor/onepage-scroll/jquery.onepage-scroll.min.js",
 
         './resources/assets/vendor/jquery.easing/js/jquery.easing.min.js',
         './resources/assets/vendor/waypoints/lib/jquery.waypoints.min.js',
