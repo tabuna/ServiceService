@@ -71,10 +71,6 @@ align-items: center;
                                                 <li><a href="/tour/event"><i class="fa fa-angle-right text-muted m-r-sm"></i>Событие</a></li>
                                                 <li><a href="/tour/post"><i class="fa fa-angle-right text-muted m-r-sm"></i>Запись</a></li>
                                                 <li><a href="/tour/about"><i class="fa fa-angle-right text-muted m-r-sm"></i>О области</a></li>
-
-
-
-
                                             </ul>
                                         </div>
                                         <div class="col-xs-6">
